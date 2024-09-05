@@ -1,8 +1,10 @@
+import 'package:app_kimberle/providers/job.dart';
+
 import 'info_card.dart';
 import 'package:flutter/material.dart';
 
 class HomeCard extends StatelessWidget {
-  final Map<String, dynamic> vaga;
+  final Job vaga;
   const HomeCard({Key? key, required this.vaga}) : super(key: key);
 
   @override
@@ -20,15 +22,15 @@ class HomeCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              vaga['titulo'],
-              style: TextStyle(
+              vaga.name,
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
             SizedBox(height: 8),
             Text(
-              vaga['empresa'],
+              vaga.company,
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.grey[600],
@@ -36,7 +38,7 @@ class HomeCard extends StatelessWidget {
             ),
             SizedBox(height: 8),
             Text(
-              vaga['descricao'],
+              vaga.description,
               style: TextStyle(
                 fontSize: 14,
                 color: Colors.grey[800],

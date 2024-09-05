@@ -1,9 +1,11 @@
 import 'package:app_kimberle/components/app_bar_component.dart';
+import 'package:app_kimberle/components/feedback_dialog.dart';
 import 'package:app_kimberle/components/info_card.dart';
+import 'package:app_kimberle/providers/job.dart';
 import 'package:flutter/material.dart';
 
 class VagaDetalheScreen extends StatelessWidget {
-  final Map<String, dynamic> vaga;
+  final Job vaga;
 
   VagaDetalheScreen({required this.vaga});
 
@@ -20,20 +22,21 @@ class VagaDetalheScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(vaga['titulo'], style: Theme.of(context).textTheme.titleLarge),
-                Text(vaga['empresa'], style: Theme.of(context).textTheme.bodySmall),
+                Text(vaga.name, style: Theme.of(context).textTheme.titleLarge),
+                Text(vaga.company, style: Theme.of(context).textTheme.bodySmall),
                 SizedBox(height: 30),
                 Text("Informações", style: Theme.of(context).textTheme.titleMedium),
                 InfoCard(vaga: vaga),
                 SizedBox(height: 30),
                 Text("Descrição", style: Theme.of(context).textTheme.titleMedium),
-                Text(vaga['descricao'], style: Theme.of(context).textTheme.bodySmall),
+                Text(vaga.description, style: Theme.of(context).textTheme.bodySmall),
                 ListTile(
+                  contentPadding: EdgeInsets.zero,
                   leading: Icon(Icons.feedback),
                   trailing: Icon(Icons.expand_more),
                   title: Text('Feedbacks', style: Theme.of(context).textTheme.titleMedium),
                   onTap: () {
-
+                    FeedBackDialog(context);
                   },
                 ),
               ],

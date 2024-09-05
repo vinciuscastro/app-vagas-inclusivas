@@ -1,44 +1,257 @@
 [
   {
-    "id": 1,
-    "titulo": "Desenvolvedor Flutter",
-    "descricao": "Desenvolvimento de aplicativos móveis utilizando Flutter.",
-    "empresa": "Empresa A",
-    "localizacao": "Remoto"
+    "name": "Vendedor de Eletrodomésticos",
+    "company": "EletroMais",
+    "salary": "R$ 3.000,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "Estamos à procura de um vendedor para se juntar à nossa equipe de Eletrodomésticos. O candidato ideal deve ter experiência em vendas e um excelente atendimento ao cliente. A função inclui realizar vendas, oferecer suporte aos clientes e atingir metas estabelecidas pela empresa. É essencial ter habilidades de negociação e comunicação."
   },
   {
-    "id": 2,
-    "titulo": "Designer UX/UI",
-    "descricao": "Criação de interfaces e experiências para aplicativos.",
-    "empresa": "Empresa B",
-    "localizacao": "São Paulo, SP"
+    "name": "Entregador",
+    "company": "FastDelivery",
+    "salary": "R$ 2.500,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sábado, 8h às 16h",
+    "location": "Rio de Janeiro, RJ",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Alimentação",
+      "Assistência Médica"
+    ],
+    "description": "O FastDelivery está em busca de um entregador eficiente e responsável. O trabalho envolve a entrega de encomendas em tempo hábil e a manutenção da qualidade do serviço. O candidato deve possuir CNH válida e ter experiência prévia em entregas. A empresa oferece um ambiente de trabalho dinâmico e benefícios competitivos."
   },
   {
-    "id": 1,
-    "titulo": "Desenvolvedor Flutter",
-    "descricao": "Desenvolvimento de aplicativos móveis utilizando Flutter.",
-    "empresa": "Empresa A",
-    "localizacao": "Remoto"
+    "name": "Desenvolvedor Backend",
+    "company": "TechSolutions",
+    "salary": "R$ 8.000,00",
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "A TechSolutions está em busca de um Desenvolvedor Backend para trabalhar em projetos desafiadores. O candidato ideal deve ter experiência com Node.js, Python ou Java, além de conhecimentos em bancos de dados e APIs. O trabalho será realizado remotamente e oferece flexibilidade e oportunidades de crescimento."
   },
   {
-    "id": 2,
-    "titulo": "Designer UX/UI",
-    "descricao": "Criação de interfaces e experiências para aplicativos.",
-    "empresa": "Empresa B",
-    "localizacao": "São Paulo, SP"
+    "name": "Analista de Recursos Humanos",
+    "company": "PeopleFirst",
+    "salary": "R$ 5.500,00",
+    "type": "CLT",
+    "modality": "Híbrida",
+    "schedule": "Segunda a Sexta, 10h às 19h",
+    "location": "Belo Horizonte, MG",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Plano de Carreira"
+    ],
+    "description": "Estamos procurando um Analista de Recursos Humanos para gerenciar processos de recrutamento, treinamento e desenvolvimento de pessoal. O candidato deve ter experiência em todas as fases do ciclo de vida dos funcionários e habilidades de comunicação eficazes. A vaga oferece um equilíbrio entre trabalho remoto e presencial."
   },
   {
-    "id": 1,
-    "titulo": "Desenvolvedor Flutter",
-    "descricao": "Desenvolvimento de aplicativos móveis utilizando Flutter.",
-    "empresa": "Empresa A",
-    "localizacao": "Remoto"
+    "name": "Biologista",
+    "company": "BioTech Lab",
+    "salary": "R$ 7.000,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "O BioTech Lab está em busca de um Biologista para trabalhar em nossos projetos de pesquisa e desenvolvimento. O candidato ideal deve ter formação em Biologia e experiência com análise de dados laboratoriais. O trabalho é presencial e oferece oportunidades para contribuir com projetos inovadores no setor de biotecnologia."
   },
   {
-    "id": 2,
-    "titulo": "Designer UX/UI",
-    "descricao": "Criação de interfaces e experiências para aplicativos.",
-    "empresa": "Empresa B",
-    "localizacao": "São Paulo, SP"
+    "name": "Professor de Matemática",
+    "company": "EducaMais",
+    "salary": "R$ 4.000,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 13h às 18h",
+    "location": "Porto Alegre, RS",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Alimentação",
+      "Plano de Saúde"
+    ],
+    "description": "A EducaMais está procurando um Professor de Matemática para ensinar no ensino fundamental e médio. O candidato deve ter experiência em sala de aula e habilidades para preparar aulas interativas e eficazes. Oferecemos um ambiente de ensino estimulante e oportunidades de desenvolvimento profissional."
+  },
+  {
+    "name": "Gerente de Projeto",
+    "company": "InnovateCorp",
+    "salary": "R$ 10.000,00",
+    "type": "CLT",
+    "modality": "Híbrida",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Participação nos Lucros"
+    ],
+    "description": "A InnovateCorp está à procura de um Gerente de Projeto para liderar e coordenar nossos projetos de tecnologia. O candidato ideal deve ter experiência em gerenciamento de projetos, conhecimento em metodologias ágeis e habilidades de liderança. A vaga oferece flexibilidade entre trabalho remoto e presencial."
+  },
+  {
+    "name": "Analista de Marketing Digital",
+    "company": "MarketPro",
+    "salary": "R$ 6.000,00",
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Vale Refeição"
+    ],
+    "description": "MarketPro está buscando um Analista de Marketing Digital para criar e implementar estratégias digitais. O candidato ideal deve ter experiência em SEO, campanhas de mídia paga e análise de métricas. O trabalho será realizado remotamente e oferece um ambiente colaborativo e inovador."
+  },
+  {
+    "name": "Assistente Administrativo",
+    "company": "AdminPlus",
+    "salary": "R$ 3.500,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Recife, PE",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Assistência Médica"
+    ],
+    "description": "AdminPlus está à procura de um Assistente Administrativo para auxiliar nas operações diárias do escritório. O candidato deve ter experiência em administração, organização de documentos e atendimento ao cliente. Oferecemos um ambiente de trabalho acolhedor e oportunidades de crescimento."
+  },
+  {
+    "name": "Desenvolvedor Frontend",
+    "company": "CodeFactory",
+    "salary": "R$ 7.500,00",
+    "type": "PJ",
+    "modality": "Híbrida",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "CodeFactory está em busca de um Desenvolvedor Frontend para trabalhar em projetos desafiadores. O candidato ideal deve ter experiência com React, Angular ou Vue.js, e um bom entendimento de design responsivo. A vaga oferece a flexibilidade de trabalhar remotamente e no escritório."
+  },
+  {
+    "name": "Coordenador de Logística",
+    "company": "LogiCenter",
+    "salary": "R$ 9.000,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Goiânia, GO",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Seguro de Vida"
+    ],
+    "description": "LogiCenter está procurando um Coordenador de Logística para supervisionar operações de armazenamento e distribuição. O candidato deve ter experiência em gestão de logística, controle de inventário e coordenação de equipe. Oferecemos um ambiente de trabalho dinâmico e oportunidades de avanço."
+  },
+  {
+    "name": "Pesquisador Científico",
+    "company": "ResearchLab",
+    "salary": "R$ 12.000,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Campinas, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Auxílio Pesquisa"
+    ],
+    "description": "O ResearchLab está em busca de um Pesquisador Científico para conduzir estudos e experimentos. O candidato ideal deve ter experiência em pesquisa científica e habilidades em análise de dados. A vaga oferece um ambiente de pesquisa avançada e oportunidades para desenvolvimento profissional."
+  },
+  {
+    "name": "Designer Gráfico",
+    "company": "CreateDesign",
+    "salary": "R$ 5.000,00",
+    "type": "CLT",
+    "modality": "Híbrida",
+    "schedule": "Segunda a Sexta, 10h às 19h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Auxílio Home Office"
+    ],
+    "description": "CreateDesign está à procura de um Designer Gráfico criativo para desenvolver materiais visuais. O candidato ideal deve ter experiência com Adobe Creative Suite e habilidades de design inovadoras. A vaga oferece flexibilidade entre trabalho remoto e presencial em um ambiente colaborativo."
+  },
+  {
+    "name": "Consultor de TI",
+    "company": "TechConsult",
+    "salary": "R$ 9.500,00",
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "A TechConsult está buscando um Consultor de TI para oferecer soluções tecnológicas e suporte a clientes. O candidato deve ter experiência em consultoria de TI, conhecimento em infraestrutura e redes. O trabalho é remoto e oferece ótimas condições de trabalho e benefícios."
+  },
+  {
+    "name": "Educador Infantil",
+    "company": "LittleStars",
+    "salary": "R$ 4.500,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Natal, RN",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Alimentação",
+      "Plano de Saúde"
+    ],
+    "description": "LittleStars está à procura de um Educador Infantil para atuar com crianças em idade pré-escolar. O candidato deve ter formação em Pedagogia e experiência com atividades educativas. Oferecemos um ambiente estimulante e oportunidades de desenvolvimento contínuo."
+  },
+  {
+    "name": "Analista de Qualidade",
+    "company": "QualityFirst",
+    "salary": "R$ 6.500,00",
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Bernardo do Campo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "QualityFirst está buscando um Analista de Qualidade para garantir que nossos produtos atendam aos padrões exigidos. O candidato ideal deve ter experiência em controle de qualidade e testes. Oferecemos um ambiente de trabalho rigoroso e oportunidades de crescimento."
+  },
+  {
+    "name": "Consultor de Recursos Humanos",
+    "company": "HR Experts",
+    "salary": "R$ 7.500,00",
+    "type": "PJ",
+    "modality": "Híbrida",
+    "schedule": "Segunda a Sexta, 10h às 19h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "HR Experts está em busca de um Consultor de Recursos Humanos para fornecer consultoria estratégica em gestão de pessoas. O candidato deve ter experiência em políticas de RH e desenvolvimento organizacional. A vaga oferece flexibilidade entre trabalho remoto e no escritório."
   }
 ]
