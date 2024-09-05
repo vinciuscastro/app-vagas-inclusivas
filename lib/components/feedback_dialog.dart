@@ -1,9 +1,9 @@
+import 'package:app_kimberle/models/feedback_model.dart';
 import 'package:flutter/material.dart';
 
-void FeedBackDialog(BuildContext context) {
+void FeedBackDialog(BuildContext context, FeedbackModel feedback) {
   showDialog(
     context: context,
-    barrierDismissible: true, // Permite fechar o pop-up clicando fora dele
     builder: (BuildContext context) {
       return AlertDialog(
         shape: RoundedRectangleBorder(
@@ -15,25 +15,40 @@ void FeedBackDialog(BuildContext context) {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-              ListTile(
-                title: const Text(
-                  'Engenheiro de Software',
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                  ), textAlign: TextAlign.center                 ,
+              Text(
+                feedback.name,
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
                 ),
-                contentPadding: EdgeInsets.zero,
-                trailing: IconButton(
-                  icon: Icon(Icons.close),
-                  onPressed: () {
-                    Navigator.of(context).pop();
-                  },
-                ),
+              ),
+              SizedBox(height: 2),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Row(
+                    children: List.generate(
+                      5, // Total de estrelas possíveis
+                      (index) => Icon(
+                        index < feedback.rate ? Icons.star : Icons.star_border,
+                        color: Colors.black,
+                        size: 16,
+                      ),
+                    ),
+                  ),
+                  SizedBox(width: 10),
+                  Text(
+                    feedback.date,
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: Colors.grey[800],
+                    ),
+                  ),
+                ],
               ),
               SizedBox(height: 16),
               Text(
-                'Trabalhar na TechWave Solutions tem sido uma experiência muito positiva para mim como pessoa negra. A empresa se destaca não apenas por implementar políticas afirmativas, mas por vivenciar uma verdadeira cultura de inclusão. ',
+                feedback.message,
                 style: TextStyle(
                   fontSize: 16,
                 ),

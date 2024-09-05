@@ -22,7 +22,6 @@ class Jobs with ChangeNotifier {
 
   void addJobFromJson(Map<String, dynamic> json) {
     _jobs.add(Job.fromJson(json));
-    print(_jobs.length);
     notifyListeners();
   }
 

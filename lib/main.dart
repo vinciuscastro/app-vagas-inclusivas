@@ -1,4 +1,5 @@
 
+import 'package:app_kimberle/providers/feedbacks.dart';
 import 'package:app_kimberle/providers/jobs.dart';
 import 'package:app_kimberle/screens/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => Jobs()),
+        ChangeNotifierProvider(create: (context) => Feedbacks()),
       ],
       child: MaterialApp(
         title: 'Vagas de Emprego',
@@ -27,13 +29,13 @@ class MyApp extends StatelessWidget {
           primaryColorLight: Color(0xFFD9E7FF),
           primaryColorDark: Color(0xFF2A4673),
           scaffoldBackgroundColor: Color(0xFF1E1E1E),
+          fontFamily: 'Qanelas',
           textTheme: const TextTheme(
             bodySmall: TextStyle(fontSize: 16, color: Color(0xFFD9E7FF)),
             titleLarge: TextStyle(fontSize: 32, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),
             titleMedium: TextStyle(fontSize: 24, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),
             titleSmall: TextStyle(fontSize: 20, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),
           ),
-
           useMaterial3: true,
           appBarTheme: const AppBarTheme(
             iconTheme: IconThemeData(color: Color(0xFFD9E7FF), size: 40),
