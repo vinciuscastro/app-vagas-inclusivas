@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "Desenvolvedor Flutter",
+    "descricao": "Desenvolvimento de aplicativos móveis utilizando Flutter.",
+    "empresa": "Empresa A",
+    "localizacao": "Remoto"
+  },
+  {
+    "id": 2,
+    "titulo": "Designer UX/UI",
+    "descricao": "Criação de interfaces e experiências para aplicativos.",
+    "empresa": "Empresa B",
+    "localizacao": "São Paulo, SP"
+  },
+  {
+    "id": 1,
+    "titulo": "Desenvolvedor Flutter",
+    "descricao": "Desenvolvimento de aplicativos móveis utilizando Flutter.",
+    "empresa": "Empresa A",
+    "localizacao": "Remoto"
+  },
+  {
+    "id": 2,
+    "titulo": "Designer UX/UI",
+    "descricao": "Criação de interfaces e experiências para aplicativos.",
+    "empresa": "Empresa B",
+    "localizacao": "São Paulo, SP"
+  },
+  {
+    "id": 1,
+    "titulo": "Desenvolvedor Flutter",
+    "descricao": "Desenvolvimento de aplicativos móveis utilizando Flutter.",
+    "empresa": "Empresa A",
+    "localizacao": "Remoto"
+  },
+  {
+    "id": 2,
+    "titulo": "Designer UX/UI",
+    "descricao": "Criação de interfaces e experiências para aplicativos.",
+    "empresa": "Empresa B",
+    "localizacao": "São Paulo, SP"
+  }
+]
