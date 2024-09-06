@@ -33,4 +33,8 @@ class Jobs with ChangeNotifier {
     }
   }
 
+  List <Job> favoriteJobs() {
+    return _jobs.where((job) => job.isFavorite).toList();
+  }
+
 }

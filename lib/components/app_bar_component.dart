@@ -11,21 +11,17 @@ class AppBarComponent extends StatelessWidget implements PreferredSizeWidget{
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: GestureDetector(
-        onTap: () {
-          Navigator.pushNamed(context, '/');
-        },
-        child: const Padding(
-          padding: EdgeInsets.only(left: 15),
-          child: Text('Kimberlé'),
-        ),
+      title: const Padding(
+        padding: EdgeInsets.only(left: 15),
+        child: Text('Kimberlé'),
       ),
       toolbarHeight: 90,
-      automaticallyImplyLeading: false,
       actions: [
         IconButton(
           icon: Icon(Icons.menu),
-          onPressed: () => {},
+          onPressed: () => {
+          Scaffold.of(context).openEndDrawer(),
+          },
         ),
       ],
 

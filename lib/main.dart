@@ -1,7 +1,11 @@
-
 import 'package:app_kimberle/providers/feedbacks.dart';
 import 'package:app_kimberle/providers/jobs.dart';
+import 'package:app_kimberle/screens/favorite_screen.dart';
 import 'package:app_kimberle/screens/home_screen.dart';
+import 'package:app_kimberle/screens/job_detail.dart';
+import 'package:app_kimberle/utils/app_routes.dart';
+
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -29,7 +33,6 @@ class MyApp extends StatelessWidget {
           primaryColorLight: Color(0xFFD9E7FF),
           primaryColorDark: Color(0xFF2A4673),
           scaffoldBackgroundColor: Color(0xFF1E1E1E),
-          fontFamily: 'Qanelas',
           textTheme: const TextTheme(
             bodySmall: TextStyle(fontSize: 16, color: Color(0xFFD9E7FF)),
             titleLarge: TextStyle(fontSize: 32, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),
@@ -44,6 +47,11 @@ class MyApp extends StatelessWidget {
           ),
         ),
         home: HomeScreen(),
+        routes: {
+          AppRoutes.JOB_DETAIL: (ctx) => JobDetail(),
+          AppRoutes.FAVORITES: (ctx) => FavoriteScreen(),
+
+        }
       ),
     );
   }

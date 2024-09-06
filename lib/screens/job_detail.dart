@@ -8,38 +8,36 @@ import 'package:app_kimberle/providers/feedbacks.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class VagaDetalheScreen extends StatefulWidget {
-  final Job vaga;
-  VagaDetalheScreen({required this.vaga});
-
+class JobDetail extends StatefulWidget {
   @override
-  State<VagaDetalheScreen> createState() => _VagaDetalheScreenState();
+  State<JobDetail> createState() => _JobDetailState();
 }
 
-class _VagaDetalheScreenState extends State<VagaDetalheScreen> {
-  late Job vaga;
+class _JobDetailState extends State<JobDetail> {
   bool expanded = false;
 
   @override
-  void initState() {
-    super.initState();
-    vaga = widget.vaga;
-  }
-
-  void toggleIcon() {
-    setState(() {
-      expanded = !expanded;
-    });
-  }
-
-
-
-  @override
   Widget build(BuildContext context) {
+    final vaga = ModalRoute.of(context)!.settings.arguments as Job;
     List<FeedbackModel> feedbacks = Provider.of<Feedbacks>(context).feedbacks;
 
     return Scaffold(
-      appBar: AppBarComponent(),
+      appBar: AppBar(
+        title: const Padding(
+          padding: EdgeInsets.only(left: 15),
+          child: Text('Kimberlé'),
+        ),
+        toolbarHeight: 90,
+        automaticallyImplyLeading: false,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.turn_slight_left_outlined, size: 35),
+            onPressed: () => {
+              Navigator.of(context).pop(),
+            },
+          ),
+        ],
+      ),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 0, vertical: 20),
         color: Colors.black,
@@ -50,21 +48,30 @@ class _VagaDetalheScreenState extends State<VagaDetalheScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(vaga.name, style: Theme.of(context).textTheme.titleLarge),
-                Text(vaga.company, style: Theme.of(context).textTheme.bodySmall),
+                Text(vaga.company,
+                    style: Theme.of(context).textTheme.bodySmall),
                 SizedBox(height: 30),
-                Text("Informações", style: Theme.of(context).textTheme.titleMedium),
+                Text("Informações",
+                    style: Theme.of(context).textTheme.titleMedium),
                 InfoCard(vaga: vaga),
                 SizedBox(height: 30),
-                Text("Descrição", style: Theme.of(context).textTheme.titleMedium),
-                Text(vaga.description, style: Theme.of(context).textTheme.bodySmall),
+                Text("Descrição",
+                    style: Theme.of(context).textTheme.titleMedium),
+                Text(vaga.description,
+                    style: Theme.of(context).textTheme.bodySmall),
                 SizedBox(height: 30),
                 ListTile(
                   contentPadding: EdgeInsets.zero,
                   leading: Icon(Icons.feedback, color: Colors.white),
-                  trailing: Icon(expanded ? Icons.expand_less : Icons.expand_more, color: Colors.white),
-                  title: Text('Feedbacks', style: Theme.of(context).textTheme.titleMedium),
+                  trailing: Icon(
+                      expanded ? Icons.expand_less : Icons.expand_more,
+                      color: Colors.white),
+                  title: Text('Feedbacks',
+                      style: Theme.of(context).textTheme.titleMedium),
                   onTap: () {
-                    toggleIcon();
+                    setState(() {
+                      expanded = !expanded;
+                    });
                   },
                 ),
                 if (expanded)

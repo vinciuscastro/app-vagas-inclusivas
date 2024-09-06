@@ -1,9 +1,11 @@
-
+import 'package:app_kimberle/components/app_drawer.dart';
+import 'package:app_kimberle/components/filter.dart';
 import 'package:app_kimberle/providers/jobs.dart';
+import 'package:app_kimberle/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:app_kimberle/components/home_card.dart';
 import 'package:app_kimberle/components/app_bar_component.dart';
-import 'package:app_kimberle/screens/vaga_detalhe_screen.dart';
+import 'package:app_kimberle/screens/job_detail.dart';
 import 'dart:convert';
 import 'package:app_kimberle/components/home_card.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -16,7 +18,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-
   // D9E7FF texto
   // 2A4673 fundo
   // 2A4673 barra
@@ -25,10 +26,11 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Job> vagas = []; // Lista completa de vagas
   List<Job> vagasFiltradas = []; // Lista filtrada de vagas
 
+
   @override
   void initState() {
     super.initState();
-
+    vagas = [];
     final jobsProvider = Provider.of<Jobs>(context, listen: false);
     jobsProvider.loadJobs().then((_) {
       carregarVagas(jobsProvider.jobs); // Usar a lista de jobs do provider
@@ -70,29 +72,53 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBarComponent(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.of(context).pushNamed(AppRoutes.FAVORITES);
+        },
+        child: Icon(Icons.favorite),
+        backgroundColor: Theme.of(context).primaryColor,
+      ),
+      appBar: AppBar(
+        title: const Padding(
+          padding: EdgeInsets.only(left: 15),
+          child: Text('Kimberlé'),
+        ),
+        toolbarHeight: 90,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.settings, size: 30),
+            onPressed: () => {},
+          ),
+        ],
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: [
             Container(
               color: Theme.of(context).primaryColor,
-              height: 100,
+              height: 180,
               padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Busca', style: Theme.of(context).textTheme.bodySmall,),
-                  SizedBox(height: 10), // Adiciona um espaço entre o texto e o TextField (campo de busca
+                  Text(
+                    'Busca',
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                  SizedBox(
+                      height:
+                          10), // Adiciona um espaço entre o texto e o TextField (campo de busca
                   TextField(
                     controller: searchController,
                     style: TextStyle(color: Colors.black, fontSize: 15),
                     decoration: const InputDecoration(
                       isDense: true,
-                      contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 0),
+                      contentPadding:
+                          EdgeInsets.symmetric(horizontal: 20, vertical: 0),
                       border: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.white, width: 0),
                         borderRadius: BorderRadius.zero,
@@ -102,6 +128,21 @@ class _HomeScreenState extends State<HomeScreen> {
                       hintText: 'Insira a vaga',
                     ),
                   ),
+                  SizedBox(height: 20),
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      children: [
+                        Filter("Salário", () => {}),
+                        Filter("Localização", () => {}),
+                        Filter("Nível", () => {}),
+                        Filter("Tipo", () => {}),
+                        Filter("Empresa", () => {}),
+
+
+                      ],
+                    ),
+                  )
                 ],
               ),
             ),
@@ -111,25 +152,27 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('Vagas Disponíveis', style: Theme.of(context).textTheme.titleSmall,),
-                  Text('Total: ${vagasFiltradas.length}', style: TextStyle(color: Color(0xFFD9E7FF))),
+                  Text(
+                    'Vagas Disponíveis',
+                    style: Theme.of(context).textTheme.titleSmall,
+                  ),
+                  Text('Total: ${vagasFiltradas.length}',
+                      style: TextStyle(color: Color(0xFFD9E7FF))),
                 ],
               ),
             ),
             ListView.builder(
-              shrinkWrap: true, // Garante que o ListView não tente expandir indefinidamente
-              physics: NeverScrollableScrollPhysics(), // Remove a rolagem do ListView, deixando apenas a rolagem principal
+              shrinkWrap:
+                  true, // Garante que o ListView não tente expandir indefinidamente
+              physics:
+                  NeverScrollableScrollPhysics(), // Remove a rolagem do ListView, deixando apenas a rolagem principal
               itemCount: vagasFiltradas.length,
               itemBuilder: (context, index) {
                 final vaga = vagasFiltradas[index];
                 return InkWell(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => VagaDetalheScreen(vaga: vaga),
-                      ),
-                    );
+                    Navigator.of(context)
+                        .pushNamed(AppRoutes.JOB_DETAIL, arguments: vaga);
                   },
                   child: HomeCard(vaga: vaga),
                 );
@@ -140,5 +183,4 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
-
 }
