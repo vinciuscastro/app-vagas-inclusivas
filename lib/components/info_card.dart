@@ -16,7 +16,7 @@ class InfoCard extends StatelessWidget {
       {
         'icone': Icons.monetization_on,
         'titulo': 'Salário',
-        'conteudo': vaga.salary ?? 'Não informado',
+        'conteudo': 'R\$ ${vaga.salary.toStringAsFixed(2)}' ?? 'Não informado',
       },
       {
         'icone': Icons.calendar_today,

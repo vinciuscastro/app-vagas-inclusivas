@@ -1,4 +1,5 @@
 import 'package:app_kimberle/providers/feedbacks.dart';
+import 'package:app_kimberle/providers/filter_provider.dart';
 import 'package:app_kimberle/providers/jobs.dart';
 import 'package:app_kimberle/screens/favorite_screen.dart';
 import 'package:app_kimberle/screens/home_screen.dart';
@@ -23,9 +24,10 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (context) => Jobs()),
         ChangeNotifierProvider(create: (context) => Feedbacks()),
+        ChangeNotifierProvider(create: (context) => FilterProvider())
       ],
       child: MaterialApp(
-        title: 'Vagas de Emprego',
+        title: 'Kimberle - Vagas de Emprego',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF2A4673)),
           primarySwatch: Colors.blue,
@@ -35,6 +37,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: Color(0xFF1E1E1E),
           textTheme: const TextTheme(
             bodySmall: TextStyle(fontSize: 16, color: Color(0xFFD9E7FF)),
+            labelSmall: TextStyle(fontSize: 14, color: Color(0xFFD9E7FF)),
             titleLarge: TextStyle(fontSize: 32, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),
             titleMedium: TextStyle(fontSize: 24, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),
             titleSmall: TextStyle(fontSize: 20, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),

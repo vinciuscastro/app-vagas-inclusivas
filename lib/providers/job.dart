@@ -6,7 +6,7 @@ class Job with ChangeNotifier {
   final String id;
   final String name;
   final String description;
-  final String salary;
+  final double salary;
   final String location;
   final String company;
   final String type;

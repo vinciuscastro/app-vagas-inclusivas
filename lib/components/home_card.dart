@@ -1,26 +1,12 @@
+import 'package:app_kimberle/components/others/favorite_icon.dart';
 import 'package:app_kimberle/providers/job.dart';
 import 'info_card.dart';
 import 'package:flutter/material.dart';
 
-class HomeCard extends StatefulWidget {
+class HomeCard extends StatelessWidget {
   final Job vaga;
   const HomeCard({Key? key, required this.vaga}) : super(key: key);
 
-  @override
-  State<HomeCard> createState() => _HomeCardState();
-}
-
-class _HomeCardState extends State<HomeCard> {
-  
-  late Job vaga;
-  
-  @override
-  void initState() {
-    super.initState();
-    vaga = widget.vaga;
-  }
-  
-  
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -53,14 +39,7 @@ class _HomeCardState extends State<HomeCard> {
                   ),
                 ),
                 Spacer(),
-                GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      vaga.isFavorite = !vaga.isFavorite;
-                    });
-                  },
-                  child: Icon(vaga.isFavorite ? Icons.favorite : Icons.favorite_border),
-                )
+                FavoriteIcon(vaga: vaga),
               ],
             ),
             SizedBox(height: 8),
@@ -79,3 +58,4 @@ class _HomeCardState extends State<HomeCard> {
     );
   }
 }
+
