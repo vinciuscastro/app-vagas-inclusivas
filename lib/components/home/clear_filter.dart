@@ -9,8 +9,9 @@ class ClearFilter extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (controller.text.isNotEmpty || Provider.of<FilterProvider>(context).isFilterActive()) {
-      return Container(
+    return Visibility(
+      visible: controller.text.isNotEmpty || Provider.of<FilterProvider>(context).isFilterActive(),
+      child: Container(
         height: 35,
         color: Theme.of(context).primaryColorLight,
         child: TextButton(
@@ -21,10 +22,7 @@ class ClearFilter extends StatelessWidget {
           },
           child: const Text('Limpar Filtros', style: TextStyle(color: Colors.black, fontSize: 14), textAlign: TextAlign.start),
         ),
-      );
-    } else {
-      return Container();
-    }
-
+      ),
+    );
   }
 }

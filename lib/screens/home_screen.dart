@@ -1,14 +1,15 @@
-import 'package:app_kimberle/components/home/clear_filter.dart';
-import 'package:app_kimberle/components/home/home_card.dart';
-import 'package:app_kimberle/components/home/home_filters.dart';
-import 'package:app_kimberle/components/others/footer_component.dart';
-import 'package:app_kimberle/components/others/job_quantity.dart';
-import 'package:app_kimberle/providers/filter_provider.dart';
-import 'package:app_kimberle/providers/jobs.dart';
-import 'package:app_kimberle/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../components/home/clear_filter.dart';
+import '../components/home/home_card.dart';
+import '../components/home/home_filters.dart';
+import '../components/others/footer_component.dart';
+import '../components/others/job_quantity.dart';
+import '../providers/filter_provider.dart';
+import '../providers/jobs.dart';
 import '../providers/job.dart';
+import '../utils/app_routes.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -73,7 +74,6 @@ class _HomeScreenState extends State<HomeScreen> {
           padding: EdgeInsets.only(left: 15),
           child: Text('Kimberlé'),
         ),
-        toolbarHeight: 90,
         actions: [
           IconButton(
             icon: const Icon(Icons.settings, size: 30),

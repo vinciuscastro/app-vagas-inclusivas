@@ -17,7 +17,6 @@ class JobDetail extends StatelessWidget {
           padding: EdgeInsets.only(left: 15),
           child: Text('Kimberlé'),
         ),
-        toolbarHeight: 90,
         automaticallyImplyLeading: false,
         actions: [
           IconButton(

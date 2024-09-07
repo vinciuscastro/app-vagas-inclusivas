@@ -39,8 +39,19 @@ class MyApp extends StatelessWidget {
             titleMedium: TextStyle(fontSize: 24, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),
             titleSmall: TextStyle(fontSize: 20, color: Color(0xFFD9E7FF), fontWeight: FontWeight.bold),
           ),
+          inputDecorationTheme: const InputDecorationTheme(
+            labelStyle: TextStyle(color: Color(0xFFD9E7FF)),
+            focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Color(0xFFD9E7FF)),
+            ),
+            enabledBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Color(0xFFD9E7FF)),
+            ),
+          ),
+          fontFamily: 'OpenSans',
           useMaterial3: true,
           appBarTheme: const AppBarTheme(
+            toolbarHeight: 90,
             iconTheme: IconThemeData(color: Color(0xFFD9E7FF), size: 40),
             backgroundColor: Color(0xFF2A4673),
             titleTextStyle: TextStyle(color: Color(0xFFD9E7FF), fontSize: 32, fontWeight: FontWeight.bold),
