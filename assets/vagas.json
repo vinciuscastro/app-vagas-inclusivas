@@ -253,5 +253,1310 @@
       "Participação nos Lucros"
     ],
     "description": "HR Experts está em busca de um Consultor de Recursos Humanos para fornecer consultoria estratégica em gestão de pessoas. O candidato deve ter experiência em políticas de RH e desenvolvimento organizacional. A vaga oferece flexibilidade entre trabalho remoto e no escritório."
+  },
+  {
+    "name": "Analista de Sistemas",
+    "company": "SysTech",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Vale Refeição"
+    ],
+    "description": "SysTech está em busca de um Analista de Sistemas para desenvolver e manter sistemas de informação. O candidato ideal deve ter experiência em programação, banco de dados e análise de requisitos. O trabalho será realizado remotamente e oferece um ambiente de trabalho colaborativo."
+  },
+  {
+    "name": "Engenheiro Civil",
+    "company": "BuildTech",
+    "salary": 8500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Fortaleza, CE",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Seguro de Vida"
+    ],
+    "description": "BuildTech está em busca de um Engenheiro Civil para trabalhar em projetos de construção e infraestrutura. O candidato deve ter experiência em projetos de engenharia civil e conhecimento em normas técnicas. Oferecemos um ambiente de trabalho desafiador e oportunidades de crescimento profissional."
+  },
+  {
+    "name": "Analista de Negócios",
+    "company": "BusinessTech",
+    "salary": 8000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "BusinessTech está em busca de um Analista de Negócios para identificar oportunidades de crescimento e desenvolver estratégias de negócios. O candidato ideal deve ter experiência em análise de mercado e planejamento estratégico. O trabalho será realizado remotamente e oferece um ambiente de trabalho dinâmico e inovador."
+  },
+  {
+    "name": "Enfermeiro",
+    "company": "HealthCare",
+    "salary": 6000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Salvador, BA",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "HealthCare está em busca de um Enfermeiro para atuar em nossas unidades de saúde. O candidato deve ter formação em Enfermagem e experiência em atendimento clínico. Oferecemos um ambiente de trabalho acolhedor e oportunidades de desenvolvimento profissional."
+  },
+  {
+    "name": "Analista Financeiro",
+    "company": "FinancePlus",
+    "salary": 7500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Participação nos Lucros"
+    ],
+    "description": "FinancePlus está em busca de um Analista Financeiro para gerenciar operações financeiras e análise de dados. O candidato ideal deve ter experiência em contabilidade, planejamento financeiro e relatórios gerenciais. Oferecemos um ambiente de trabalho desafiador e oportunidades de crescimento."
+  },
+  {
+    "name": "Assistente de Marketing",
+    "company": "MarketPlus",
+    "salary": 4000.00,
+    "type": "CLT",
+    "modality": "Hibrido",
+    "schedule": "Segunda a Sexta, 10h às 19h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Plano de Saúde"
+    ],
+    "description": "MarketPlus está em busca de um Assistente de Marketing para apoiar a equipe de marketing em campanhas e estratégias digitais. O candidato deve ter experiência em mídias sociais, SEO e marketing de conteúdo. Oferecemos um ambiente de trabalho dinâmico e oportunidades de aprendizado."
+  },
+  {
+    "name": "Desenvolvedor Front-End",
+    "company": "Tech Solutions",
+    "salary": 5500.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Auxílio Home Office"
+    ],
+    "description": "Estamos em busca de um Desenvolvedor Front-End para integrar nossa equipe. O candidato ideal terá experiência com React, JavaScript e conhecimentos em design responsivo. O profissional será responsável pela implementação de interfaces modernas e otimização de sites para performance e acessibilidade.    O trabalho é remoto, com flexibilidade no horário, e oferecemos um ambiente de trabalho colaborativo. Prezamos por profissionais que gostem de aprender continuamente e tenham boas habilidades de comunicação para trabalhar em equipe. Nosso time utiliza metodologias ágeis, e o candidato deverá estar familiarizado com práticas como Scrum e Kanban.    Além de um bom salário, oferecemos benefícios como vale refeição, plano de saúde e auxílio para quem trabalha de casa. Esta é uma excelente oportunidade para quem busca crescimento profissional em uma empresa inovadora que valoriza o desenvolvimento pessoal e técnico de seus colaboradores."
+  },
+  {
+    "name": "Analista de Marketing Digital",
+    "company": "Agência Criativa",
+    "salary": 4500.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 10:00 - 17:00",
+    "location": "Rio de Janeiro, RJ",
+    "benefits": [
+      "Vale Transporte",
+      "Assistência Odontológica",
+      "Desconto em academias"
+    ],
+    "description": "A Agência Criativa está contratando um Analista de Marketing Digital. O profissional será responsável por planejar e executar campanhas de mídia paga, gerenciar redes sociais e analisar métricas para otimizar estratégias de comunicação. É necessário ter experiência com Google Ads, Facebook Ads e ferramentas de automação de marketing.    O trabalho é híbrido, com 2 dias de trabalho no escritório no Rio de Janeiro e os outros dias em home office. O candidato deve ser criativo, proativo e ter um bom senso de análise de dados. Buscamos alguém que seja apaixonado por marketing e disposto a crescer com a gente.    Oferecemos um pacote de benefícios, incluindo vale transporte, assistência odontológica e convênio com academias. A Agência Criativa é um ambiente descontraído e dinâmico, onde valorizamos a inovação e o espírito de equipe. Se você quer fazer parte de um time que está sempre buscando novas formas de comunicação, essa vaga é para você."
+  },
+  {
+    "name": "Estagiário de Recursos Humanos",
+    "company": "People First",
+    "salary": 1200.00,
+    "type": "Estágio",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 13:00 - 18:00",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Vale Transporte",
+      "Auxílio Alimentação",
+      "Seguro de Vida"
+    ],
+    "description": "Estamos em busca de um Estagiário de Recursos Humanos para nossa equipe em Curitiba. O estagiário terá a oportunidade de aprender sobre os processos de recrutamento, seleção e treinamento de novos colaboradores, além de auxiliar nas rotinas administrativas do setor de RH.    Buscamos alguém com vontade de aprender, organizado e que goste de trabalhar em equipe. Não é necessário ter experiência, mas é desejável estar cursando graduação em Psicologia, Administração ou áreas afins. Oferecemos um ambiente acolhedor e a chance de desenvolver suas habilidades profissionais.    Entre os benefícios oferecidos estão vale transporte, auxílio alimentação e seguro de vida. Este estágio é uma excelente oportunidade para iniciar sua carreira em uma empresa reconhecida pelo cuidado e desenvolvimento dos seus colaboradores. Se você está pronto para esse desafio, envie sua candidatura!"
+  },
+  {
+    "name": "Gerente de Projetos",
+    "company": "Inova Tech",
+    "salary": 8500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 08:00 - 17:00",
+    "location": "Belo Horizonte, MG",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Participação nos Lucros"
+    ],
+    "description": "A Inova Tech está em busca de um Gerente de Projetos para liderar o desenvolvimento de novos produtos e coordenar equipes multidisciplinares. O profissional será responsável pelo planejamento, execução e entrega de projetos dentro do prazo e orçamento estipulados.    Buscamos alguém com experiência em gestão de projetos de tecnologia, familiaridade com metodologias ágeis e excelentes habilidades de comunicação. Será essencial garantir que todas as partes interessadas estejam alinhadas com os objetivos do projeto e que os resultados esperados sejam alcançados.    Oferecemos benefícios como plano de saúde, vale alimentação e participação nos lucros da empresa. Se você é um líder natural, com grande capacidade de resolução de problemas e gosta de trabalhar em um ambiente inovador, essa é a oportunidade certa para você!"
+  },
+  {
+    "name": "Desenvolvedor Mobile",
+    "company": "AppMasters",
+    "salary": 6000.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 10:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Auxílio Transporte",
+      "Seguro Saúde",
+      "Bônus por Resultado"
+    ],
+    "description": "Estamos contratando um Desenvolvedor Mobile para a nossa equipe de São Paulo. O profissional será responsável por desenvolver e manter aplicativos iOS e Android, com foco em usabilidade, performance e segurança. Experiência com React Native ou Flutter será um diferencial.    O trabalho é híbrido, sendo necessário comparecer ao escritório duas vezes por semana. Buscamos alguém com excelente conhecimento em programação mobile, que tenha paixão por criar soluções tecnológicas inovadoras e que esteja sempre em busca de melhorias contínuas.    Oferecemos benefícios como auxílio transporte, seguro saúde e bônus baseado em desempenho. Trabalhar na AppMasters é ter a oportunidade de crescer junto com uma empresa que valoriza a inovação e o desenvolvimento de produtos de qualidade. Se você é apaixonado por tecnologia mobile, queremos te conhecer!"
+  },
+  {
+    "name": "Analista de Dados",
+    "company": "Data Insights",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Plano Odontológico"
+    ],
+    "description": "A Data Insights está contratando um Analista de Dados para trabalhar com grandes volumes de dados e desenvolver análises preditivas para os nossos clientes. O profissional será responsável por coletar, organizar e interpretar dados, oferecendo insights valiosos para tomada de decisões estratégicas.    Procuramos um profissional com conhecimento avançado em SQL, Python, e ferramentas de visualização de dados como Power BI ou Tableau. É essencial ter capacidade analítica e estar sempre atualizado com as melhores práticas do setor.    A empresa oferece benefícios atrativos, além de um ambiente de trabalho inovador e flexível. Se você tem paixão por números e deseja trabalhar com um time de alto nível, essa oportunidade é para você."
+  },
+  {
+    "name": "Designer Gráfico",
+    "company": "Creative Studio",
+    "salary": 4000.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 10:00 - 17:00",
+    "location": "Florianópolis, SC",
+    "benefits": [
+      "Vale Transporte",
+      "Auxílio Alimentação",
+      "Convênio com Academia"
+    ],
+    "description": "Estamos em busca de um Designer Gráfico talentoso para integrar o time da Creative Studio. O profissional será responsável por criar layouts para materiais gráficos, campanhas digitais e branding para os nossos clientes. O foco será em comunicação visual criativa e alinhada às tendências do mercado.    O trabalho é híbrido, com flexibilidade para trabalhar de casa e no escritório. O candidato ideal deve dominar softwares como Photoshop, Illustrator e InDesign, além de ter um portfólio que demonstre experiência em diferentes formatos de design.    Oferecemos um ambiente de trabalho dinâmico e criativo, onde o profissional poderá contribuir com ideias e participar do processo de criação em todas as etapas. Se você é apaixonado por design e está sempre em busca de inovação, envie seu portfólio!"
+  },
+  {
+    "name": "Consultor de Vendas",
+    "company": "Vendas Inteligentes",
+    "salary": 3000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sábado, 09:00 - 17:00",
+    "location": "Salvador, BA",
+    "benefits": [
+      "Comissão",
+      "Vale Refeição",
+      "Plano de Saúde"
+    ],
+    "description": "A Vendas Inteligentes está buscando um Consultor de Vendas com experiência em relacionamento com clientes. O profissional será responsável por atender clientes, realizar demonstrações de produtos e fechar negociações. É necessário ter habilidades em negociação e comunicação, além de perfil proativo.    O consultor terá metas mensais e será recompensado com comissões atrativas por desempenho. Buscamos profissionais com paixão por vendas, que saibam trabalhar bem sob pressão e que estejam focados em atingir resultados.    Oferecemos benefícios como plano de saúde, vale refeição e participação nos lucros. Esta é uma excelente oportunidade para quem deseja crescer em uma empresa que valoriza o desenvolvimento de seus colaboradores e oferece oportunidades de carreira."
+  },
+  {
+    "name": "Engenheiro de Software",
+    "company": "CodeFactory",
+    "salary": 9500.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Porto Alegre, RS",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "A CodeFactory está contratando um Engenheiro de Software com experiência em desenvolvimento de sistemas escaláveis e robustos. O profissional será responsável por planejar, codificar e revisar aplicações de alto desempenho, utilizando tecnologias modernas como Java, Python e AWS.    Buscamos alguém com sólidos conhecimentos em arquitetura de software e que tenha experiência prática com metodologias ágeis. O trabalho é remoto, e o profissional terá flexibilidade para trabalhar de qualquer lugar.    A empresa oferece benefícios como plano de saúde, auxílio home office e participação nos lucros. Se você tem paixão por tecnologia e busca um ambiente desafiador e inovador, venha fazer parte do nosso time!"
+  },
+  {
+    "name": "Analista Financeiro",
+    "company": "FinMaster",
+    "salary": 5000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 08:00 - 17:00",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Vale Refeição",
+      "Plano Odontológico",
+      "Seguro de Vida"
+    ],
+    "description": "A FinMaster está buscando um Analista Financeiro para atuar no setor financeiro da empresa. O profissional será responsável pelo controle de fluxo de caixa, elaboração de relatórios financeiros, e análise de resultados para a tomada de decisões estratégicas.    Buscamos um candidato com sólida experiência em finanças, preferencialmente com conhecimento em ERP e Excel avançado. O trabalho é presencial, e o profissional deverá trabalhar diretamente com a diretoria da empresa para otimizar os processos financeiros.    Oferecemos um pacote de benefícios competitivo e a oportunidade de trabalhar em uma empresa que está em constante crescimento. Se você tem perfil analítico e gosta de desafios, essa é a vaga ideal para você."
+  },
+  {
+    "name": "Desenvolvedor Back-End",
+    "company": "WebTech",
+    "salary": 6000.00,
+    "type": "CLT",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Campinas, SP",
+    "benefits": [
+      "Vale Alimentação",
+      "Plano de Saúde",
+      "Convênio Farmácia"
+    ],
+    "description": "Estamos buscando um Desenvolvedor Back-End para fazer parte da nossa equipe. O profissional será responsável por criar e manter APIs robustas e seguras, além de integrar bancos de dados e serviços externos. É necessário ter conhecimento em Node.js, MongoDB e APIs RESTful.    O trabalho será híbrido, com parte do tempo no escritório em Campinas. Buscamos alguém proativo e com experiência comprovada em desenvolvimento back-end, capaz de entregar soluções de alta qualidade em ambientes ágeis.    Oferecemos benefícios como vale alimentação, plano de saúde e convênio com farmácias. Esta é uma excelente oportunidade para quem busca desafios em uma empresa de tecnologia em crescimento."
+  },
+  {
+    "name": "Coordenador de RH",
+    "company": "Gestão Pessoal",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Seguro Saúde",
+      "Participação nos Lucros"
+    ],
+    "description": "A Gestão Pessoal está contratando um Coordenador de RH para liderar o time de recursos humanos da empresa. O profissional será responsável por gerenciar processos de recrutamento e seleção, desenvolvimento de talentos, e implementação de políticas de RH.    Buscamos alguém com sólida experiência em gestão de equipes e com excelente comunicação interpessoal. O Coordenador de RH trabalhará em estreita colaboração com os líderes de outras áreas para garantir que as práticas de RH estejam alinhadas com os objetivos estratégicos da empresa.    Oferecemos um ambiente de trabalho dinâmico, com oportunidades de crescimento e desenvolvimento. Os benefícios incluem vale refeição, seguro saúde e participação nos lucros. Se você tem paixão por gestão de pessoas e busca uma nova oportunidade, essa vaga é ideal."
+  },
+  {
+    "name": "Desenvolvedor Full Stack",
+    "company": "DevOps Corp",
+    "salary": 8000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Seguro Saúde",
+      "Bônus Anual"
+    ],
+    "description": "A DevOps Corp está contratando um Desenvolvedor Full Stack para trabalhar remotamente. O profissional será responsável por desenvolver aplicações web completas, desde o front-end até o back-end, utilizando tecnologias como React, Node.js e PostgreSQL.    Estamos em busca de alguém com experiência em desenvolvimento ágil, com capacidade de trabalhar de forma independente e resolver problemas complexos. O candidato ideal deve ser altamente organizado e ter boa comunicação para colaborar com equipes remotas.    Oferecemos um ambiente de trabalho flexível, com benefícios como auxílio home office, seguro saúde e bônus anual por desempenho. Se você gosta de desafios e está em busca de uma empresa que valoriza inovação e excelência, envie seu currículo."
+  },
+  {
+    "name": "Especialista em SEO",
+    "company": "WebBoost",
+    "salary": 5000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 17:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Curso de Capacitação"
+    ],
+    "description": "A WebBoost está em busca de um Especialista em SEO para otimizar o desempenho de nossos sites e aumentar a visibilidade online dos nossos clientes. O profissional será responsável por estratégias de SEO, análise de palavras-chave e criação de relatórios de desempenho.     Procuramos alguém com experiência comprovada em SEO, conhecimento em ferramentas como Google Analytics e SEMrush, e habilidades para trabalhar de forma independente. É necessário ter um bom entendimento de algoritmos de busca e técnicas de otimização.    Oferecemos benefícios como auxílio home office, plano de saúde e oportunidades de capacitação contínua. Se você é apaixonado por SEO e deseja trabalhar em um ambiente flexível, essa vaga é para você."
+  },
+  {
+    "name": "Gerente de TI",
+    "company": "TechSavvy",
+    "salary": 9000.00,
+    "type": "CLT",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 08:00 - 17:00",
+    "location": "Belo Horizonte, MG",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Participação nos Lucros"
+    ],
+    "description": "A TechSavvy está contratando um Gerente de TI para coordenar nossa equipe de tecnologia e garantir a integridade e segurança dos nossos sistemas. O profissional será responsável por liderar projetos de TI, gerenciar a infraestrutura e garantir a conformidade com as políticas de segurança.     Buscamos alguém com ampla experiência em gestão de TI, conhecimento em segurança da informação e habilidades para liderar equipes. O trabalho será híbrido, com algumas visitas ao escritório em Belo Horizonte.    Oferecemos um pacote de benefícios competitivo, incluindo plano de saúde, vale alimentação e participação nos lucros. Se você tem experiência em gestão de TI e procura um ambiente desafiador, envie sua candidatura."
+  },
+  {
+    "name": "Analista de Suporte Técnico",
+    "company": "SupportPro",
+    "salary": 3500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 10:00 - 19:00",
+    "location": "Recife, PE",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "A SupportPro está em busca de um Analista de Suporte Técnico para oferecer suporte a usuários internos e externos. O profissional será responsável por resolver problemas técnicos, realizar diagnósticos e garantir a manutenção adequada dos sistemas.     É necessário ter experiência com suporte técnico, habilidades em diagnóstico de problemas e um bom atendimento ao cliente. A vaga é presencial em Recife e o candidato ideal deve ser proativo e ter habilidades de comunicação claras.    Oferecemos benefícios como vale transporte, vale refeição e seguro de vida. Se você é apaixonado por tecnologia e atendimento ao cliente, venha fazer parte da nossa equipe."
+  },
+  {
+    "name": "Especialista em Cybersecurity",
+    "company": "SecureNet",
+    "salary": 11000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Bônus Anual"
+    ],
+    "description": "A SecureNet está buscando um Especialista em Cybersecurity para proteger nossa infraestrutura e dados contra ameaças cibernéticas. O profissional será responsável por implementar estratégias de segurança, realizar auditorias e monitorar sistemas para identificar e responder a incidentes de segurança.     O candidato deve ter experiência em segurança da informação, conhecimento em ferramentas de segurança e práticas de conformidade. A posição é remota, oferecendo flexibilidade para trabalhar de qualquer lugar.    Oferecemos benefícios como auxílio home office, plano de saúde e bônus anual baseado em desempenho. Se você é um especialista em segurança cibernética e procura um desafio, essa vaga é para você."
+  },
+  {
+    "name": "Designer de UX/UI",
+    "company": "DesignLab",
+    "salary": 6500.00,
+    "type": "CLT",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Auxílio Educação"
+    ],
+    "description": "O DesignLab está contratando um Designer de UX/UI para criar experiências de usuário intuitivas e visualmente atraentes. O profissional será responsável por projetar interfaces de aplicativos e sites, realizar pesquisas de usuário e testar protótipos.     Buscamos alguém com experiência em design de interfaces, prototipagem e usabilidade. O trabalho é híbrido, com algumas semanas no escritório em São Paulo e outras em home office.    Oferecemos benefícios como vale refeição, plano de saúde e auxílio para educação continuada. Se você é apaixonado por design e busca um ambiente criativo, venha se juntar ao nosso time."
+  },
+  {
+    "name": "Analista de CRM",
+    "company": "MarketX",
+    "salary": 4800.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 10:00 - 19:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Descontos em Produtos"
+    ],
+    "description": "A MarketX está em busca de um Analista de CRM para gerenciar e otimizar a relação com os clientes. O profissional será responsável por criar campanhas de marketing personalizadas, analisar dados de clientes e desenvolver estratégias de retenção.     É necessário ter experiência com ferramentas de CRM e boas habilidades analíticas. A vaga é remota, oferecendo flexibilidade para trabalhar de qualquer lugar.    Oferecemos benefícios como auxílio home office, plano de saúde e descontos em produtos. Se você tem experiência em CRM e busca um ambiente dinâmico, envie sua candidatura."
+  },
+  {
+    "name": "Coordenador de Projetos",
+    "company": "ProGestão",
+    "salary": 8000.00,
+    "type": "CLT",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Porto Alegre, RS",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Participação nos Lucros"
+    ],
+    "description": "A ProGestão está contratando um Coordenador de Projetos para liderar iniciativas estratégicas e garantir a entrega no prazo e dentro do orçamento. O profissional será responsável pelo planejamento, execução e monitoramento de projetos.     Procuramos alguém com experiência em gestão de projetos e habilidade para liderar equipes. O trabalho será híbrido, com algumas semanas no escritório em Porto Alegre e outras em home office.    Oferecemos benefícios como plano de saúde, vale refeição e participação nos lucros. Se você tem experiência em coordenação de projetos e procura um desafio, essa vaga é ideal."
+  },
+  {
+    "name": "Desenvolvedor Python",
+    "company": "CodeWorks",
+    "salary": 7000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Bônus de Performance"
+    ],
+    "description": "A CodeWorks está em busca de um Desenvolvedor Python para criar e manter sistemas robustos. O profissional será responsável pelo desenvolvimento de aplicações backend, integração de APIs e otimização de desempenho.     Buscamos alguém com sólida experiência em Python e conhecimento em frameworks como Django ou Flask. A posição é remota, permitindo flexibilidade para trabalhar de qualquer lugar.    Oferecemos benefícios como auxílio home office, plano de saúde e bônus por desempenho. Se você é apaixonado por programação e busca uma empresa inovadora, queremos te conhecer."
+  },
+  {
+    "name": "Gerente de Contas",
+    "company": "SalesMax",
+    "salary": 7500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Bonificação por Metas"
+    ],
+    "description": "A SalesMax está contratando um Gerente de Contas para gerenciar relacionamentos com clientes-chave e garantir a satisfação e retenção. O profissional será responsável por desenvolver estratégias de vendas, negociar contratos e monitorar o desempenho dos clientes.     Procuramos alguém com experiência em vendas e gestão de contas, habilidades de negociação e um forte perfil analítico. O trabalho é presencial em São Paulo, e o candidato ideal deve ter habilidades para lidar com clientes e superar metas.    Oferecemos benefícios como vale refeição, plano de saúde e bonificação por metas atingidas. Se você tem experiência em gerenciamento de contas e busca um novo desafio, envie sua candidatura."
+  },
+  {
+    "name": "Especialista em Marketing Digital",
+    "company": "AdVision",
+    "salary": 6000.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Bônus de Performance"
+    ],
+    "description": "A AdVision está procurando um Especialista em Marketing Digital para liderar campanhas e estratégias de marketing online. O profissional será responsável por gerenciar campanhas de anúncios, analisar dados e otimizar estratégias para maximizar resultados.     Buscamos alguém com experiência em marketing digital, conhecimento em ferramentas como Google Ads e Facebook Ads, e habilidades analíticas. A vaga é híbrida, com algumas visitas ao escritório em Curitiba e outras em home office.    Oferecemos benefícios como plano de saúde, vale refeição e bônus por performance. Se você é apaixonado por marketing digital e busca um ambiente dinâmico, essa vaga é para você."
+  },
+  {
+    "name": "Analista de Dados",
+    "company": "DataPro",
+    "salary": 5500.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 17:00",
+    "location": "Remoto",
+    "benefits": [
+      "Vale Transporte",
+      "Plano de Saúde",
+      "Auxílio Home Office"
+    ],
+    "description": "A DataPro está em busca de um Analista de Dados para coletar, analisar e interpretar dados para apoiar decisões estratégicas. O profissional será responsável por criar relatórios, identificar tendências e colaborar com diferentes equipes.     É necessário ter experiência em análise de dados, conhecimento em ferramentas como Excel e SQL, e habilidades analíticas. A posição é remota, oferecendo flexibilidade para trabalhar de qualquer lugar.    Oferecemos benefícios como vale transporte, plano de saúde e auxílio home office. Se você tem experiência em análise de dados e procura um novo desafio, envie sua candidatura."
+  },
+  {
+    "name": "Desenvolvedor Front-End",
+    "company": "FrontTech",
+    "salary": 6200.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Belo Horizonte, MG",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Bônus Anual"
+    ],
+    "description": "A FrontTech está contratando um Desenvolvedor Front-End para criar interfaces de usuário responsivas e funcionais. O profissional será responsável pelo desenvolvimento de layouts, integração com APIs e otimização de desempenho.     Procuramos alguém com sólida experiência em HTML, CSS e JavaScript, e conhecimento em frameworks como React ou Vue.js. A vaga é híbrida, com algumas visitas ao escritório em Belo Horizonte e outras em home office.    Oferecemos benefícios como auxílio home office, plano de saúde e bônus anual. Se você é apaixonado por desenvolvimento front-end e busca um ambiente inovador, queremos te conhecer."
+  },
+  {
+    "name": "Coordenador de Marketing",
+    "company": "BrandBoost",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Participação nos Lucros"
+    ],
+    "description": "A BrandBoost está buscando um Coordenador de Marketing para liderar estratégias de marketing e promover a marca. O profissional será responsável por desenvolver campanhas, coordenar a equipe de marketing e analisar o desempenho das ações.     É necessário ter experiência em marketing, habilidades de liderança e uma abordagem criativa. O trabalho é presencial em São Paulo, com foco em desenvolver estratégias de marketing inovadoras e impactantes.    Oferecemos benefícios como vale refeição, plano de saúde e participação nos lucros. Se você tem experiência em marketing e busca um novo desafio, envie sua candidatura."
+  },
+  {
+    "name": "Consultor de Vendas",
+    "company": "SalesHub",
+    "salary": 4000.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Remoto",
+    "benefits": [
+      "Vale Alimentação",
+      "Plano de Saúde",
+      "Comissões"
+    ],
+    "description": "A SalesHub está contratando um Consultor de Vendas para promover nossos produtos e serviços e gerar novas oportunidades de negócio. O profissional será responsável por realizar prospecção, negociar contratos e acompanhar o ciclo de vendas. Procuramos alguém com experiência em vendas, habilidades de comunicação e um perfil orientado a resultados. A vaga é remota, permitindo flexibilidade para trabalhar de qualquer lugar. Oferecemos benefícios como vale alimentação, plano de saúde e comissões baseadas em desempenho. Se você é apaixonado por vendas e busca uma posição com oportunidades de crescimento, queremos te conhecer."
+  },
+  {
+    "name": "Gerente de Produto",
+    "company": "ProductPro",
+    "salary": 8500.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Bônus Anual"
+    ],
+    "description": "A ProductPro está em busca de um Gerente de Produto para liderar o desenvolvimento e lançamento de novos produtos. O profissional será responsável por definir a visão do produto, coordenar equipes e garantir que os produtos atendam às necessidades do mercado. É necessário ter experiência em gestão de produtos, habilidades de liderança e uma compreensão profunda do mercado. A posição é híbrida, com algumas visitas ao escritório em Curitiba e outras em home office. Oferecemos benefícios como auxílio home office, plano de saúde e bônus anual baseado em desempenho. Se você tem experiência em gestão de produtos e procura um ambiente inovador, envie sua candidatura."
+  },
+  {
+    "name": "Administrador de Sistemas",
+    "company": "NetSolutions",
+    "salary": 6000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 08:00 - 17:00",
+    "location": "Porto Alegre, RS",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Vale Transporte"
+    ],
+    "description": "A NetSolutions está contratando um Administrador de Sistemas para gerenciar e manter nossos sistemas e redes. O profissional será responsável pela configuração de servidores, monitoramento de redes e solução de problemas técnicos. Buscamos alguém com experiência em administração de sistemas, conhecimento em redes e habilidades de resolução de problemas. O trabalho é presencial em Porto Alegre e o candidato ideal deve ter uma abordagem proativa e habilidades técnicas sólidas. Oferecemos benefícios como vale refeição, plano de saúde e vale transporte. Se você tem experiência em administração de sistemas e busca uma nova oportunidade, envie sua candidatura."
+  },
+  {
+    "name": "Vendedor de Eletrodomésticos",
+    "company": "EletroMais",
+    "salary": 3000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "Estamos à procura de um vendedor para se juntar à nossa equipe de Eletrodomésticos. O candidato ideal deve ter experiência em vendas e um excelente atendimento ao cliente. A função inclui realizar vendas, oferecer suporte aos clientes e atingir metas estabelecidas pela empresa. É essencial ter habilidades de negociação e comunicação."
+  },
+  {
+    "name": "Entregador",
+    "company": "FastDelivery",
+    "salary": 2500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sábado, 8h às 16h",
+    "location": "Rio de Janeiro, RJ",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Alimentação",
+      "Assistência Médica"
+    ],
+    "description": "O FastDelivery está em busca de um entregador eficiente e responsável. O trabalho envolve a entrega de encomendas em tempo hábil e a manutenção da qualidade do serviço. O candidato deve possuir CNH válida e ter experiência prévia em entregas. A empresa oferece um ambiente de trabalho dinâmico e benefícios competitivos."
+  },
+  {
+    "name": "Desenvolvedor Backend",
+    "company": "TechSolutions",
+    "salary": 8000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "A TechSolutions está em busca de um Desenvolvedor Backend para trabalhar em projetos desafiadores. O candidato ideal deve ter experiência com Node.js, Python ou Java, além de conhecimentos em bancos de dados e APIs. O trabalho será realizado remotamente e oferece flexibilidade e oportunidades de crescimento."
+  },
+  {
+    "name": "Analista de Recursos Humanos",
+    "company": "PeopleFirst",
+    "salary": 5500.00,
+    "type": "CLT",
+    "modality": "Hibrido",
+    "schedule": "Segunda a Sexta, 10h às 19h",
+    "location": "Belo Horizonte, MG",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Plano de Carreira"
+    ],
+    "description": "Estamos procurando um Analista de Recursos Humanos para gerenciar processos de recrutamento, treinamento e desenvolvimento de pessoal. O candidato deve ter experiência em todas as fases do ciclo de vida dos funcionários e habilidades de comunicação eficazes. A vaga oferece um equilíbrio entre trabalho remoto e presencial."
+  },
+  {
+    "name": "Biologista",
+    "company": "BioTech Lab",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "O BioTech Lab está em busca de um Biologista para trabalhar em nossos projetos de pesquisa e desenvolvimento. O candidato ideal deve ter formação em Biologia e experiência com análise de dados laboratoriais. O trabalho é presencial e oferece oportunidades para contribuir com projetos inovadores no setor de biotecnologia."
+  },
+  {
+    "name": "Professor de Matemática",
+    "company": "EducaMais",
+    "salary": 4000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 13h às 18h",
+    "location": "Porto Alegre, RS",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Alimentação",
+      "Plano de Saúde"
+    ],
+    "description": "A EducaMais está procurando um Professor de Matemática para ensinar no ensino fundamental e médio. O candidato deve ter experiência em sala de aula e habilidades para preparar aulas interativas e eficazes. Oferecemos um ambiente de ensino estimulante e oportunidades de desenvolvimento profissional."
+  },
+  {
+    "name": "Gerente de Projeto",
+    "company": "InnovateCorp",
+    "salary": 10000.00,
+    "type": "CLT",
+    "modality": "Hibrido",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Participação nos Lucros"
+    ],
+    "description": "A InnovateCorp está à procura de um Gerente de Projeto para liderar e coordenar nossos projetos de tecnologia. O candidato ideal deve ter experiência em gerenciamento de projetos, conhecimento em metodologias ágeis e habilidades de liderança. A vaga oferece flexibilidade entre trabalho remoto e presencial."
+  },
+  {
+    "name": "Analista de Marketing Digital",
+    "company": "MarketPro",
+    "salary": 6000.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Vale Refeição"
+    ],
+    "description": "MarketPro está buscando um Analista de Marketing Digital para criar e implementar estratégias digitais. O candidato ideal deve ter experiência em SEO, campanhas de mídia paga e análise de métricas. O trabalho será realizado remotamente e oferece um ambiente colaborativo e inovador."
+  },
+  {
+    "name": "Assistente Administrativo",
+    "company": "AdminPlus",
+    "salary": 3500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Recife, PE",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Assistência Médica"
+    ],
+    "description": "AdminPlus está à procura de um Assistente Administrativo para auxiliar nas operações diárias do escritório. O candidato deve ter experiência em administração, organização de documentos e atendimento ao cliente. Oferecemos um ambiente de trabalho acolhedor e oportunidades de crescimento."
+  },
+  {
+    "name": "Desenvolvedor Frontend",
+    "company": "CodeFactory",
+    "salary": 7500.00,
+    "type": "PJ",
+    "modality": "Hibrido",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "CodeFactory está em busca de um Desenvolvedor Frontend para trabalhar em projetos desafiadores. O candidato ideal deve ter experiência com React, Angular ou Vue.js, e um bom entendimento de design responsivo. A vaga oferece a flexibilidade de trabalhar remotamente e no escritório."
+  },
+  {
+    "name": "Coordenador de Logística",
+    "company": "LogiCenter",
+    "salary": 9000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Goiânia, GO",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Seguro de Vida"
+    ],
+    "description": "LogiCenter está procurando um Coordenador de Logística para supervisionar operações de armazenamento e distribuição. O candidato deve ter experiência em gestão de logística, controle de inventário e coordenação de equipe. Oferecemos um ambiente de trabalho dinâmico e oportunidades de avanço."
+  },
+  {
+    "name": "Pesquisador Científico",
+    "company": "ResearchLab",
+    "salary": 12000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Campinas, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Auxílio Pesquisa"
+    ],
+    "description": "O ResearchLab está em busca de um Pesquisador Científico para conduzir estudos e experimentos. O candidato ideal deve ter experiência em pesquisa científica e habilidades em análise de dados. A vaga oferece um ambiente de pesquisa avançada e oportunidades para desenvolvimento profissional."
+  },
+  {
+    "name": "Designer Gráfico",
+    "company": "CreateDesign",
+    "salary": 5000.00,
+    "type": "CLT",
+    "modality": "Hibrido",
+    "schedule": "Segunda a Sexta, 10h às 19h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Auxílio Home Office"
+    ],
+    "description": "CreateDesign está à procura de um Designer Gráfico criativo para desenvolver materiais visuais. O candidato ideal deve ter experiência com Adobe Creative Suite e habilidades de design inovadoras. A vaga oferece flexibilidade entre trabalho remoto e presencial em um ambiente colaborativo."
+  },
+  {
+    "name": "Consultor de TI",
+    "company": "TechConsult",
+    "salary": 9500.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "A TechConsult está buscando um Consultor de TI para oferecer soluções tecnológicas e suporte a clientes. O candidato deve ter experiência em consultoria de TI, conhecimento em infraestrutura e redes. O trabalho é remoto e oferece ótimas condições de trabalho e benefícios."
+  },
+  {
+    "name": "Educador Infantil",
+    "company": "LittleStars",
+    "salary": 4500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Natal, RN",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Alimentação",
+      "Plano de Saúde"
+    ],
+    "description": "LittleStars está à procura de um Educador Infantil para atuar com crianças em idade pré-escolar. O candidato deve ter formação em Pedagogia e experiência com atividades educativas. Oferecemos um ambiente estimulante e oportunidades de desenvolvimento contínuo."
+  },
+  {
+    "name": "Analista de Qualidade",
+    "company": "QualityFirst",
+    "salary": 6500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Bernardo do Campo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "QualityFirst está buscando um Analista de Qualidade para garantir que nossos produtos atendam aos padrões exigidos. O candidato ideal deve ter experiência em controle de qualidade e testes. Oferecemos um ambiente de trabalho rigoroso e oportunidades de crescimento."
+  },
+  {
+    "name": "Consultor de Recursos Humanos",
+    "company": "HR Experts",
+    "salary": 7500.00,
+    "type": "PJ",
+    "modality": "Hibrido",
+    "schedule": "Segunda a Sexta, 10h às 19h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "HR Experts está em busca de um Consultor de Recursos Humanos para fornecer consultoria estratégica em gestão de pessoas. O candidato deve ter experiência em políticas de RH e desenvolvimento organizacional. A vaga oferece flexibilidade entre trabalho remoto e no escritório."
+  },
+  {
+    "name": "Analista de Sistemas",
+    "company": "SysTech",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Vale Refeição"
+    ],
+    "description": "SysTech está em busca de um Analista de Sistemas para desenvolver e manter sistemas de informação. O candidato ideal deve ter experiência em programação, banco de dados e análise de requisitos. O trabalho será realizado remotamente e oferece um ambiente de trabalho colaborativo."
+  },
+  {
+    "name": "Engenheiro Civil",
+    "company": "BuildTech",
+    "salary": 8500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Fortaleza, CE",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Seguro de Vida"
+    ],
+    "description": "BuildTech está em busca de um Engenheiro Civil para trabalhar em projetos de construção e infraestrutura. O candidato deve ter experiência em projetos de engenharia civil e conhecimento em normas técnicas. Oferecemos um ambiente de trabalho desafiador e oportunidades de crescimento profissional."
+  },
+  {
+    "name": "Analista de Negócios",
+    "company": "BusinessTech",
+    "salary": 8000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "Remoto",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "BusinessTech está em busca de um Analista de Negócios para identificar oportunidades de crescimento e desenvolver estratégias de negócios. O candidato ideal deve ter experiência em análise de mercado e planejamento estratégico. O trabalho será realizado remotamente e oferece um ambiente de trabalho dinâmico e inovador."
+  },
+  {
+    "name": "Enfermeiro",
+    "company": "HealthCare",
+    "salary": 6000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 8h às 17h",
+    "location": "Salvador, BA",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "HealthCare está em busca de um Enfermeiro para atuar em nossas unidades de saúde. O candidato deve ter formação em Enfermagem e experiência em atendimento clínico. Oferecemos um ambiente de trabalho acolhedor e oportunidades de desenvolvimento profissional."
+  },
+  {
+    "name": "Analista Financeiro",
+    "company": "FinancePlus",
+    "salary": 7500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a Sexta, 9h às 18h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Participação nos Lucros"
+    ],
+    "description": "FinancePlus está em busca de um Analista Financeiro para gerenciar operações financeiras e análise de dados. O candidato ideal deve ter experiência em contabilidade, planejamento financeiro e relatórios gerenciais. Oferecemos um ambiente de trabalho desafiador e oportunidades de crescimento."
+  },
+  {
+    "name": "Assistente de Marketing",
+    "company": "MarketPlus",
+    "salary": 4000.00,
+    "type": "CLT",
+    "modality": "Hibrido",
+    "schedule": "Segunda a Sexta, 10h às 19h",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Plano de Saúde"
+    ],
+    "description": "MarketPlus está em busca de um Assistente de Marketing para apoiar a equipe de marketing em campanhas e estratégias digitais. O candidato deve ter experiência em mídias sociais, SEO e marketing de conteúdo. Oferecemos um ambiente de trabalho dinâmico e oportunidades de aprendizado."
+  },
+  {
+    "name": "Desenvolvedor Front-End",
+    "company": "Tech Solutions",
+    "salary": 5500.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Auxílio Home Office"
+    ],
+    "description": "Estamos em busca de um Desenvolvedor Front-End para integrar nossa equipe. O candidato ideal terá experiência com React, JavaScript e conhecimentos em design responsivo. O profissional será responsável pela implementação de interfaces modernas e otimização de sites para performance e acessibilidade.    O trabalho é remoto, com flexibilidade no horário, e oferecemos um ambiente de trabalho colaborativo. Prezamos por profissionais que gostem de aprender continuamente e tenham boas habilidades de comunicação para trabalhar em equipe. Nosso time utiliza metodologias ágeis, e o candidato deverá estar familiarizado com práticas como Scrum e Kanban.    Além de um bom salário, oferecemos benefícios como vale refeição, plano de saúde e auxílio para quem trabalha de casa. Esta é uma excelente oportunidade para quem busca crescimento profissional em uma empresa inovadora que valoriza o desenvolvimento pessoal e técnico de seus colaboradores."
+  },
+  {
+    "name": "Analista de Marketing Digital",
+    "company": "Agência Criativa",
+    "salary": 4500.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 10:00 - 17:00",
+    "location": "Rio de Janeiro, RJ",
+    "benefits": [
+      "Vale Transporte",
+      "Assistência Odontológica",
+      "Desconto em academias"
+    ],
+    "description": "A Agência Criativa está contratando um Analista de Marketing Digital. O profissional será responsável por planejar e executar campanhas de mídia paga, gerenciar redes sociais e analisar métricas para otimizar estratégias de comunicação. É necessário ter experiência com Google Ads, Facebook Ads e ferramentas de automação de marketing.    O trabalho é híbrido, com 2 dias de trabalho no escritório no Rio de Janeiro e os outros dias em home office. O candidato deve ser criativo, proativo e ter um bom senso de análise de dados. Buscamos alguém que seja apaixonado por marketing e disposto a crescer com a gente.    Oferecemos um pacote de benefícios, incluindo vale transporte, assistência odontológica e convênio com academias. A Agência Criativa é um ambiente descontraído e dinâmico, onde valorizamos a inovação e o espírito de equipe. Se você quer fazer parte de um time que está sempre buscando novas formas de comunicação, essa vaga é para você."
+  },
+  {
+    "name": "Estagiário de Recursos Humanos",
+    "company": "People First",
+    "salary": 1200.00,
+    "type": "Estágio",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 13:00 - 18:00",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Vale Transporte",
+      "Auxílio Alimentação",
+      "Seguro de Vida"
+    ],
+    "description": "Estamos em busca de um Estagiário de Recursos Humanos para nossa equipe em Curitiba. O estagiário terá a oportunidade de aprender sobre os processos de recrutamento, seleção e treinamento de novos colaboradores, além de auxiliar nas rotinas administrativas do setor de RH.    Buscamos alguém com vontade de aprender, organizado e que goste de trabalhar em equipe. Não é necessário ter experiência, mas é desejável estar cursando graduação em Psicologia, Administração ou áreas afins. Oferecemos um ambiente acolhedor e a chance de desenvolver suas habilidades profissionais.    Entre os benefícios oferecidos estão vale transporte, auxílio alimentação e seguro de vida. Este estágio é uma excelente oportunidade para iniciar sua carreira em uma empresa reconhecida pelo cuidado e desenvolvimento dos seus colaboradores. Se você está pronto para esse desafio, envie sua candidatura!"
+  },
+  {
+    "name": "Gerente de Projetos",
+    "company": "Inova Tech",
+    "salary": 8500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 08:00 - 17:00",
+    "location": "Belo Horizonte, MG",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Participação nos Lucros"
+    ],
+    "description": "A Inova Tech está em busca de um Gerente de Projetos para liderar o desenvolvimento de novos produtos e coordenar equipes multidisciplinares. O profissional será responsável pelo planejamento, execução e entrega de projetos dentro do prazo e orçamento estipulados.    Buscamos alguém com experiência em gestão de projetos de tecnologia, familiaridade com metodologias ágeis e excelentes habilidades de comunicação. Será essencial garantir que todas as partes interessadas estejam alinhadas com os objetivos do projeto e que os resultados esperados sejam alcançados.    Oferecemos benefícios como plano de saúde, vale alimentação e participação nos lucros da empresa. Se você é um líder natural, com grande capacidade de resolução de problemas e gosta de trabalhar em um ambiente inovador, essa é a oportunidade certa para você!"
+  },
+  {
+    "name": "Desenvolvedor Mobile",
+    "company": "AppMasters",
+    "salary": 6000.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 10:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Auxílio Transporte",
+      "Seguro Saúde",
+      "Bônus por Resultado"
+    ],
+    "description": "Estamos contratando um Desenvolvedor Mobile para a nossa equipe de São Paulo. O profissional será responsável por desenvolver e manter aplicativos iOS e Android, com foco em usabilidade, performance e segurança. Experiência com React Native ou Flutter será um diferencial.    O trabalho é híbrido, sendo necessário comparecer ao escritório duas vezes por semana. Buscamos alguém com excelente conhecimento em programação mobile, que tenha paixão por criar soluções tecnológicas inovadoras e que esteja sempre em busca de melhorias contínuas.    Oferecemos benefícios como auxílio transporte, seguro saúde e bônus baseado em desempenho. Trabalhar na AppMasters é ter a oportunidade de crescer junto com uma empresa que valoriza a inovação e o desenvolvimento de produtos de qualidade. Se você é apaixonado por tecnologia mobile, queremos te conhecer!"
+  },
+  {
+    "name": "Analista de Dados",
+    "company": "Data Insights",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Plano Odontológico"
+    ],
+    "description": "A Data Insights está contratando um Analista de Dados para trabalhar com grandes volumes de dados e desenvolver análises preditivas para os nossos clientes. O profissional será responsável por coletar, organizar e interpretar dados, oferecendo insights valiosos para tomada de decisões estratégicas.    Procuramos um profissional com conhecimento avançado em SQL, Python, e ferramentas de visualização de dados como Power BI ou Tableau. É essencial ter capacidade analítica e estar sempre atualizado com as melhores práticas do setor.    A empresa oferece benefícios atrativos, além de um ambiente de trabalho inovador e flexível. Se você tem paixão por números e deseja trabalhar com um time de alto nível, essa oportunidade é para você."
+  },
+  {
+    "name": "Designer Gráfico",
+    "company": "Creative Studio",
+    "salary": 4000.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 10:00 - 17:00",
+    "location": "Florianópolis, SC",
+    "benefits": [
+      "Vale Transporte",
+      "Auxílio Alimentação",
+      "Convênio com Academia"
+    ],
+    "description": "Estamos em busca de um Designer Gráfico talentoso para integrar o time da Creative Studio. O profissional será responsável por criar layouts para materiais gráficos, campanhas digitais e branding para os nossos clientes. O foco será em comunicação visual criativa e alinhada às tendências do mercado.    O trabalho é híbrido, com flexibilidade para trabalhar de casa e no escritório. O candidato ideal deve dominar softwares como Photoshop, Illustrator e InDesign, além de ter um portfólio que demonstre experiência em diferentes formatos de design.    Oferecemos um ambiente de trabalho dinâmico e criativo, onde o profissional poderá contribuir com ideias e participar do processo de criação em todas as etapas. Se você é apaixonado por design e está sempre em busca de inovação, envie seu portfólio!"
+  },
+  {
+    "name": "Consultor de Vendas",
+    "company": "Vendas Inteligentes",
+    "salary": 3000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sábado, 09:00 - 17:00",
+    "location": "Salvador, BA",
+    "benefits": [
+      "Comissão",
+      "Vale Refeição",
+      "Plano de Saúde"
+    ],
+    "description": "A Vendas Inteligentes está buscando um Consultor de Vendas com experiência em relacionamento com clientes. O profissional será responsável por atender clientes, realizar demonstrações de produtos e fechar negociações. É necessário ter habilidades em negociação e comunicação, além de perfil proativo.    O consultor terá metas mensais e será recompensado com comissões atrativas por desempenho. Buscamos profissionais com paixão por vendas, que saibam trabalhar bem sob pressão e que estejam focados em atingir resultados.    Oferecemos benefícios como plano de saúde, vale refeição e participação nos lucros. Esta é uma excelente oportunidade para quem deseja crescer em uma empresa que valoriza o desenvolvimento de seus colaboradores e oferece oportunidades de carreira."
+  },
+  {
+    "name": "Engenheiro de Software",
+    "company": "CodeFactory",
+    "salary": 9500.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Porto Alegre, RS",
+    "benefits": [
+      "Plano de Saúde",
+      "Auxílio Home Office",
+      "Participação nos Lucros"
+    ],
+    "description": "A CodeFactory está contratando um Engenheiro de Software com experiência em desenvolvimento de sistemas escaláveis e robustos. O profissional será responsável por planejar, codificar e revisar aplicações de alto desempenho, utilizando tecnologias modernas como Java, Python e AWS.    Buscamos alguém com sólidos conhecimentos em arquitetura de software e que tenha experiência prática com metodologias ágeis. O trabalho é remoto, e o profissional terá flexibilidade para trabalhar de qualquer lugar.    A empresa oferece benefícios como plano de saúde, auxílio home office e participação nos lucros. Se você tem paixão por tecnologia e busca um ambiente desafiador e inovador, venha fazer parte do nosso time!"
+  },
+  {
+    "name": "Analista Financeiro",
+    "company": "FinMaster",
+    "salary": 5000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 08:00 - 17:00",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Vale Refeição",
+      "Plano Odontológico",
+      "Seguro de Vida"
+    ],
+    "description": "A FinMaster está buscando um Analista Financeiro para atuar no setor financeiro da empresa. O profissional será responsável pelo controle de fluxo de caixa, elaboração de relatórios financeiros, e análise de resultados para a tomada de decisões estratégicas.    Buscamos um candidato com sólida experiência em finanças, preferencialmente com conhecimento em ERP e Excel avançado. O trabalho é presencial, e o profissional deverá trabalhar diretamente com a diretoria da empresa para otimizar os processos financeiros.    Oferecemos um pacote de benefícios competitivo e a oportunidade de trabalhar em uma empresa que está em constante crescimento. Se você tem perfil analítico e gosta de desafios, essa é a vaga ideal para você."
+  },
+  {
+    "name": "Desenvolvedor Back-End",
+    "company": "WebTech",
+    "salary": 6000.00,
+    "type": "CLT",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Campinas, SP",
+    "benefits": [
+      "Vale Alimentação",
+      "Plano de Saúde",
+      "Convênio Farmácia"
+    ],
+    "description": "Estamos buscando um Desenvolvedor Back-End para fazer parte da nossa equipe. O profissional será responsável por criar e manter APIs robustas e seguras, além de integrar bancos de dados e serviços externos. É necessário ter conhecimento em Node.js, MongoDB e APIs RESTful.    O trabalho será híbrido, com parte do tempo no escritório em Campinas. Buscamos alguém proativo e com experiência comprovada em desenvolvimento back-end, capaz de entregar soluções de alta qualidade em ambientes ágeis.    Oferecemos benefícios como vale alimentação, plano de saúde e convênio com farmácias. Esta é uma excelente oportunidade para quem busca desafios em uma empresa de tecnologia em crescimento."
+  },
+  {
+    "name": "Coordenador de RH",
+    "company": "Gestão Pessoal",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Seguro Saúde",
+      "Participação nos Lucros"
+    ],
+    "description": "A Gestão Pessoal está contratando um Coordenador de RH para liderar o time de recursos humanos da empresa. O profissional será responsável por gerenciar processos de recrutamento e seleção, desenvolvimento de talentos, e implementação de políticas de RH.    Buscamos alguém com sólida experiência em gestão de equipes e com excelente comunicação interpessoal. O Coordenador de RH trabalhará em estreita colaboração com os líderes de outras áreas para garantir que as práticas de RH estejam alinhadas com os objetivos estratégicos da empresa.    Oferecemos um ambiente de trabalho dinâmico, com oportunidades de crescimento e desenvolvimento. Os benefícios incluem vale refeição, seguro saúde e participação nos lucros. Se você tem paixão por gestão de pessoas e busca uma nova oportunidade, essa vaga é ideal."
+  },
+  {
+    "name": "Desenvolvedor Full Stack",
+    "company": "DevOps Corp",
+    "salary": 8000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Seguro Saúde",
+      "Bônus Anual"
+    ],
+    "description": "A DevOps Corp está contratando um Desenvolvedor Full Stack para trabalhar remotamente. O profissional será responsável por desenvolver aplicações web completas, desde o front-end até o back-end, utilizando tecnologias como React, Node.js e PostgreSQL.    Estamos em busca de alguém com experiência em desenvolvimento ágil, com capacidade de trabalhar de forma independente e resolver problemas complexos. O candidato ideal deve ser altamente organizado e ter boa comunicação para colaborar com equipes remotas.    Oferecemos um ambiente de trabalho flexível, com benefícios como auxílio home office, seguro saúde e bônus anual por desempenho. Se você gosta de desafios e está em busca de uma empresa que valoriza inovação e excelência, envie seu currículo."
+  },
+  {
+    "name": "Especialista em SEO",
+    "company": "WebBoost",
+    "salary": 5000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 17:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Curso de Capacitação"
+    ],
+    "description": "A WebBoost está em busca de um Especialista em SEO para otimizar o desempenho de nossos sites e aumentar a visibilidade online dos nossos clientes. O profissional será responsável por estratégias de SEO, análise de palavras-chave e criação de relatórios de desempenho.     Procuramos alguém com experiência comprovada em SEO, conhecimento em ferramentas como Google Analytics e SEMrush, e habilidades para trabalhar de forma independente. É necessário ter um bom entendimento de algoritmos de busca e técnicas de otimização.    Oferecemos benefícios como auxílio home office, plano de saúde e oportunidades de capacitação contínua. Se você é apaixonado por SEO e deseja trabalhar em um ambiente flexível, essa vaga é para você."
+  },
+  {
+    "name": "Gerente de TI",
+    "company": "TechSavvy",
+    "salary": 9000.00,
+    "type": "CLT",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 08:00 - 17:00",
+    "location": "Belo Horizonte, MG",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Alimentação",
+      "Participação nos Lucros"
+    ],
+    "description": "A TechSavvy está contratando um Gerente de TI para coordenar nossa equipe de tecnologia e garantir a integridade e segurança dos nossos sistemas. O profissional será responsável por liderar projetos de TI, gerenciar a infraestrutura e garantir a conformidade com as políticas de segurança.     Buscamos alguém com ampla experiência em gestão de TI, conhecimento em segurança da informação e habilidades para liderar equipes. O trabalho será híbrido, com algumas visitas ao escritório em Belo Horizonte.    Oferecemos um pacote de benefícios competitivo, incluindo plano de saúde, vale alimentação e participação nos lucros. Se você tem experiência em gestão de TI e procura um ambiente desafiador, envie sua candidatura."
+  },
+  {
+    "name": "Analista de Suporte Técnico",
+    "company": "SupportPro",
+    "salary": 3500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 10:00 - 19:00",
+    "location": "Recife, PE",
+    "benefits": [
+      "Vale Transporte",
+      "Vale Refeição",
+      "Seguro de Vida"
+    ],
+    "description": "A SupportPro está em busca de um Analista de Suporte Técnico para oferecer suporte a usuários internos e externos. O profissional será responsável por resolver problemas técnicos, realizar diagnósticos e garantir a manutenção adequada dos sistemas.     É necessário ter experiência com suporte técnico, habilidades em diagnóstico de problemas e um bom atendimento ao cliente. A vaga é presencial em Recife e o candidato ideal deve ser proativo e ter habilidades de comunicação claras.    Oferecemos benefícios como vale transporte, vale refeição e seguro de vida. Se você é apaixonado por tecnologia e atendimento ao cliente, venha fazer parte da nossa equipe."
+  },
+  {
+    "name": "Especialista em Cybersecurity",
+    "company": "SecureNet",
+    "salary": 11000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Bônus Anual"
+    ],
+    "description": "A SecureNet está buscando um Especialista em Cybersecurity para proteger nossa infraestrutura e dados contra ameaças cibernéticas. O profissional será responsável por implementar estratégias de segurança, realizar auditorias e monitorar sistemas para identificar e responder a incidentes de segurança.     O candidato deve ter experiência em segurança da informação, conhecimento em ferramentas de segurança e práticas de conformidade. A posição é remota, oferecendo flexibilidade para trabalhar de qualquer lugar.    Oferecemos benefícios como auxílio home office, plano de saúde e bônus anual baseado em desempenho. Se você é um especialista em segurança cibernética e procura um desafio, essa vaga é para você."
+  },
+  {
+    "name": "Designer de UX/UI",
+    "company": "DesignLab",
+    "salary": 6500.00,
+    "type": "CLT",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Auxílio Educação"
+    ],
+    "description": "O DesignLab está contratando um Designer de UX/UI para criar experiências de usuário intuitivas e visualmente atraentes. O profissional será responsável por projetar interfaces de aplicativos e sites, realizar pesquisas de usuário e testar protótipos.     Buscamos alguém com experiência em design de interfaces, prototipagem e usabilidade. O trabalho é híbrido, com algumas semanas no escritório em São Paulo e outras em home office.    Oferecemos benefícios como vale refeição, plano de saúde e auxílio para educação continuada. Se você é apaixonado por design e busca um ambiente criativo, venha se juntar ao nosso time."
+  },
+  {
+    "name": "Analista de CRM",
+    "company": "MarketX",
+    "salary": 4800.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 10:00 - 19:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Descontos em Produtos"
+    ],
+    "description": "A MarketX está em busca de um Analista de CRM para gerenciar e otimizar a relação com os clientes. O profissional será responsável por criar campanhas de marketing personalizadas, analisar dados de clientes e desenvolver estratégias de retenção.     É necessário ter experiência com ferramentas de CRM e boas habilidades analíticas. A vaga é remota, oferecendo flexibilidade para trabalhar de qualquer lugar.    Oferecemos benefícios como auxílio home office, plano de saúde e descontos em produtos. Se você tem experiência em CRM e busca um ambiente dinâmico, envie sua candidatura."
+  },
+  {
+    "name": "Coordenador de Projetos",
+    "company": "ProGestão",
+    "salary": 8000.00,
+    "type": "CLT",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Porto Alegre, RS",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Participação nos Lucros"
+    ],
+    "description": "A ProGestão está contratando um Coordenador de Projetos para liderar iniciativas estratégicas e garantir a entrega no prazo e dentro do orçamento. O profissional será responsável pelo planejamento, execução e monitoramento de projetos.     Procuramos alguém com experiência em gestão de projetos e habilidade para liderar equipes. O trabalho será híbrido, com algumas semanas no escritório em Porto Alegre e outras em home office.    Oferecemos benefícios como plano de saúde, vale refeição e participação nos lucros. Se você tem experiência em coordenação de projetos e procura um desafio, essa vaga é ideal."
+  },
+  {
+    "name": "Desenvolvedor Python",
+    "company": "CodeWorks",
+    "salary": 7000.00,
+    "type": "PJ",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Remoto",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Bônus de Performance"
+    ],
+    "description": "A CodeWorks está em busca de um Desenvolvedor Python para criar e manter sistemas robustos. O profissional será responsável pelo desenvolvimento de aplicações backend, integração de APIs e otimização de desempenho.     Buscamos alguém com sólida experiência em Python e conhecimento em frameworks como Django ou Flask. A posição é remota, permitindo flexibilidade para trabalhar de qualquer lugar.    Oferecemos benefícios como auxílio home office, plano de saúde e bônus por desempenho. Se você é apaixonado por programação e busca uma empresa inovadora, queremos te conhecer."
+  },
+  {
+    "name": "Gerente de Contas",
+    "company": "SalesMax",
+    "salary": 7500.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Bonificação por Metas"
+    ],
+    "description": "A SalesMax está contratando um Gerente de Contas para gerenciar relacionamentos com clientes-chave e garantir a satisfação e retenção. O profissional será responsável por desenvolver estratégias de vendas, negociar contratos e monitorar o desempenho dos clientes.     Procuramos alguém com experiência em vendas e gestão de contas, habilidades de negociação e um forte perfil analítico. O trabalho é presencial em São Paulo, e o candidato ideal deve ter habilidades para lidar com clientes e superar metas.    Oferecemos benefícios como vale refeição, plano de saúde e bonificação por metas atingidas. Se você tem experiência em gerenciamento de contas e busca um novo desafio, envie sua candidatura."
+  },
+  {
+    "name": "Especialista em Marketing Digital",
+    "company": "AdVision",
+    "salary": 6000.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Plano de Saúde",
+      "Vale Refeição",
+      "Bônus de Performance"
+    ],
+    "description": "A AdVision está procurando um Especialista em Marketing Digital para liderar campanhas e estratégias de marketing online. O profissional será responsável por gerenciar campanhas de anúncios, analisar dados e otimizar estratégias para maximizar resultados.     Buscamos alguém com experiência em marketing digital, conhecimento em ferramentas como Google Ads e Facebook Ads, e habilidades analíticas. A vaga é híbrida, com algumas visitas ao escritório em Curitiba e outras em home office.    Oferecemos benefícios como plano de saúde, vale refeição e bônus por performance. Se você é apaixonado por marketing digital e busca um ambiente dinâmico, essa vaga é para você."
+  },
+  {
+    "name": "Analista de Dados",
+    "company": "DataPro",
+    "salary": 5500.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 17:00",
+    "location": "Remoto",
+    "benefits": [
+      "Vale Transporte",
+      "Plano de Saúde",
+      "Auxílio Home Office"
+    ],
+    "description": "A DataPro está em busca de um Analista de Dados para coletar, analisar e interpretar dados para apoiar decisões estratégicas. O profissional será responsável por criar relatórios, identificar tendências e colaborar com diferentes equipes.     É necessário ter experiência em análise de dados, conhecimento em ferramentas como Excel e SQL, e habilidades analíticas. A posição é remota, oferecendo flexibilidade para trabalhar de qualquer lugar.    Oferecemos benefícios como vale transporte, plano de saúde e auxílio home office. Se você tem experiência em análise de dados e procura um novo desafio, envie sua candidatura."
+  },
+  {
+    "name": "Desenvolvedor Front-End",
+    "company": "FrontTech",
+    "salary": 6200.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Belo Horizonte, MG",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Bônus Anual"
+    ],
+    "description": "A FrontTech está contratando um Desenvolvedor Front-End para criar interfaces de usuário responsivas e funcionais. O profissional será responsável pelo desenvolvimento de layouts, integração com APIs e otimização de desempenho.     Procuramos alguém com sólida experiência em HTML, CSS e JavaScript, e conhecimento em frameworks como React ou Vue.js. A vaga é híbrida, com algumas visitas ao escritório em Belo Horizonte e outras em home office.    Oferecemos benefícios como auxílio home office, plano de saúde e bônus anual. Se você é apaixonado por desenvolvimento front-end e busca um ambiente inovador, queremos te conhecer."
+  },
+  {
+    "name": "Coordenador de Marketing",
+    "company": "BrandBoost",
+    "salary": 7000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "São Paulo, SP",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Participação nos Lucros"
+    ],
+    "description": "A BrandBoost está buscando um Coordenador de Marketing para liderar estratégias de marketing e promover a marca. O profissional será responsável por desenvolver campanhas, coordenar a equipe de marketing e analisar o desempenho das ações.     É necessário ter experiência em marketing, habilidades de liderança e uma abordagem criativa. O trabalho é presencial em São Paulo, com foco em desenvolver estratégias de marketing inovadoras e impactantes.    Oferecemos benefícios como vale refeição, plano de saúde e participação nos lucros. Se você tem experiência em marketing e busca um novo desafio, envie sua candidatura."
+  },
+  {
+    "name": "Consultor de Vendas",
+    "company": "SalesHub",
+    "salary": 4000.00,
+    "type": "CLT",
+    "modality": "Remoto",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Remoto",
+    "benefits": [
+      "Vale Alimentação",
+      "Plano de Saúde",
+      "Comissões"
+    ],
+    "description": "A SalesHub está contratando um Consultor de Vendas para promover nossos produtos e serviços e gerar novas oportunidades de negócio. O profissional será responsável por realizar prospecção, negociar contratos e acompanhar o ciclo de vendas. Procuramos alguém com experiência em vendas, habilidades de comunicação e um perfil orientado a resultados. A vaga é remota, permitindo flexibilidade para trabalhar de qualquer lugar. Oferecemos benefícios como vale alimentação, plano de saúde e comissões baseadas em desempenho. Se você é apaixonado por vendas e busca uma posição com oportunidades de crescimento, queremos te conhecer."
+  },
+  {
+    "name": "Gerente de Produto",
+    "company": "ProductPro",
+    "salary": 8500.00,
+    "type": "PJ",
+    "modality": "Híbrido",
+    "schedule": "Segunda a sexta, 09:00 - 18:00",
+    "location": "Curitiba, PR",
+    "benefits": [
+      "Auxílio Home Office",
+      "Plano de Saúde",
+      "Bônus Anual"
+    ],
+    "description": "A ProductPro está em busca de um Gerente de Produto para liderar o desenvolvimento e lançamento de novos produtos. O profissional será responsável por definir a visão do produto, coordenar equipes e garantir que os produtos atendam às necessidades do mercado. É necessário ter experiência em gestão de produtos, habilidades de liderança e uma compreensão profunda do mercado. A posição é híbrida, com algumas visitas ao escritório em Curitiba e outras em home office. Oferecemos benefícios como auxílio home office, plano de saúde e bônus anual baseado em desempenho. Se você tem experiência em gestão de produtos e procura um ambiente inovador, envie sua candidatura."
+  },
+  {
+    "name": "Administrador de Sistemas",
+    "company": "NetSolutions",
+    "salary": 6000.00,
+    "type": "CLT",
+    "modality": "Presencial",
+    "schedule": "Segunda a sexta, 08:00 - 17:00",
+    "location": "Porto Alegre, RS",
+    "benefits": [
+      "Vale Refeição",
+      "Plano de Saúde",
+      "Vale Transporte"
+    ],
+    "description": "A NetSolutions está contratando um Administrador de Sistemas para gerenciar e manter nossos sistemas e redes. O profissional será responsável pela configuração de servidores, monitoramento de redes e solução de problemas técnicos. Buscamos alguém com experiência em administração de sistemas, conhecimento em redes e habilidades de resolução de problemas. O trabalho é presencial em Porto Alegre e o candidato ideal deve ter uma abordagem proativa e habilidades técnicas sólidas. Oferecemos benefícios como vale refeição, plano de saúde e vale transporte. Se você tem experiência em administração de sistemas e busca uma nova oportunidade, envie sua candidatura."
   }
 ]

@@ -18,7 +18,7 @@ class LocationDialog extends StatelessWidget {
       elevation: 16,
       child: Container(
         padding: const EdgeInsets.all(20),
-        height: 300,
+        height: 250,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -32,18 +32,32 @@ class LocationDialog extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             TextField(
+              decoration: const InputDecoration(
+                hintText: 'Digite a localização',
+                hintStyle: TextStyle(color: Colors.black),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                ),
+                suffixIcon: Icon(Icons.location_on),
+              ),
               controller: locationController,
               style: const TextStyle(color: Colors.black, fontSize: 15),
             ),
 
             const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                filterProvider.updateLocation(locationController.text);
-                _callback();
-                Navigator.of(context).pop();
-              },
-              child: const Text('Aplicar Filtro'),
+            Container(
+              decoration: BoxDecoration(
+                color: Theme.of(context).primaryColor,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: TextButton(
+                onPressed: () {
+                  filterProvider.updateLocation(locationController.text);
+                  _callback();
+                  Navigator.of(context).pop();
+                },
+                child: Text('Aplicar Filtro', style: Theme.of(context).textTheme.bodySmall),
+              ),
             ),
           ],
         ),

@@ -9,7 +9,6 @@ class InfoCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Cria a lista de informações de vaga dinamicamente]
     final beneficios = (vaga.benefits as List<dynamic>?)?.map((item) => item.toString()).toList();
 
     final List<Map<String, dynamic>> jobInfo = [
@@ -19,12 +18,12 @@ class InfoCard extends StatelessWidget {
         'conteudo': 'R\$ ${vaga.salary.toStringAsFixed(2)}' ?? 'Não informado',
       },
       {
-        'icone': Icons.calendar_today,
+        'icone': Icons.business,
         'titulo': 'Tipo de Vaga',
         'conteudo': vaga.type ?? 'Não informado',
       },
       {
-        'icone': Icons.access_time,
+        'icone': Icons.home_work,
         'titulo': 'Modalidade',
         'conteudo': vaga.modality ?? 'Não informado',
       },

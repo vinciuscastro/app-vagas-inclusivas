@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 class ModalityDialog extends StatelessWidget {
   final VoidCallback _callback;
+
   const ModalityDialog(this._callback, {super.key});
 
   @override
@@ -11,20 +12,18 @@ class ModalityDialog extends StatelessWidget {
     final filterProvider = Provider.of<FilterProvider>(context);
 
     return Dialog(
-
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(20.0),
       ),
       elevation: 16,
       child: Container(
         padding: const EdgeInsets.all(20),
-        height: 300,
+        height: 250,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-
             const Text(
-              'Tipo da Vaga',
+              'Modalidade de Trabalho',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -33,24 +32,46 @@ class ModalityDialog extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             DropdownButton<String>(
-              items: const [
-                DropdownMenuItem(value: '', child: Text('')),
-                DropdownMenuItem(child: Text('Presencial'), value: 'Presencial'),
-                DropdownMenuItem(child: Text('Hibrido'), value: 'Hibrido'),
-                DropdownMenuItem(child: Text('Remoto'), value: 'Remoto'),
-              ],
+              value: filterProvider.modality,
+              icon: const Icon(Icons.expand_more),
+              dropdownColor: Theme.of(context).primaryColorLight,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 14,
+              ),
+              underline: Container(
+                height: 2,
+                color: Theme.of(context).primaryColor,
+              ),
+              items:
+                  ['', 'Presencial', 'Remoto', 'Hibrido'].map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: Container(
+                    padding: const EdgeInsets.all(10),
+                    child: Text(value,
+                        style: const TextStyle(color: Colors.black)),
+                  ),
+                );
+              }).toList(),
               onChanged: (value) {
                 filterProvider.updateWorkMode(value!);
               },
             ),
-
             const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                _callback();
-                Navigator.of(context).pop();
-              },
-              child: const Text('Aplicar Filtro'),
+            Container(
+              decoration: BoxDecoration(
+                color: Theme.of(context).primaryColor,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: TextButton(
+                onPressed: () {
+                  _callback();
+                  Navigator.of(context).pop();
+                },
+                child: Text('Aplicar Filtro',
+                    style: Theme.of(context).textTheme.bodySmall),
+              ),
             ),
           ],
         ),
