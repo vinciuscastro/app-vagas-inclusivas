@@ -1,4 +1,5 @@
-import 'package:app_kimberle/components/home_card.dart';
+import 'package:app_kimberle/components/home/home_card.dart';
+import 'package:app_kimberle/components/others/job_quantity.dart';
 import 'package:app_kimberle/providers/job.dart';
 import 'package:app_kimberle/providers/jobs.dart';
 import 'package:app_kimberle/utils/app_routes.dart';
@@ -22,7 +23,7 @@ class FavoriteScreen extends StatelessWidget {
         automaticallyImplyLeading: false,
         actions: [
           IconButton(
-            icon: Icon(Icons.arrow_back, size: 35),
+            icon: Icon(Icons.turn_slight_left_outlined, size: 35),
             onPressed: () => {
               Navigator.of(context).pop(),
             },
@@ -32,21 +33,7 @@ class FavoriteScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
-              alignment: Alignment.bottomLeft,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Vagas Favoritas',
-                    style: Theme.of(context).textTheme.titleSmall,
-                  ),
-                  Text('Total: ${vagas.length}',
-                      style: TextStyle(color: Color(0xFFD9E7FF))),
-                ],
-              ),
-            ),
+            JobQuantity(size: vagas.length, label: 'Vagas Favoritas'),
             ListView.builder(
               shrinkWrap:
               true, // Garante que o ListView não tente expandir indefinidamente

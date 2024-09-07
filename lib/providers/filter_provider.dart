@@ -2,17 +2,18 @@ import 'package:flutter/material.dart';
 
 class FilterProvider with ChangeNotifier {
   double salary = 0.0;
-  double distance = 0.0;
+  String location = '';
   String type = '';
   String modality = '';
+  String company = '';
 
-  void updateSalary(double newSalary) {
-    salary = newSalary;
+  void updateSalary(String newSalary) {
+    salary = double.parse(newSalary);
     notifyListeners();
   }
 
-  void updateDistance(double newDistance) {
-    distance = newDistance;
+  void updateLocation(String newLocation) {
+    location = newLocation;
     notifyListeners();
   }
 
@@ -26,12 +27,22 @@ class FilterProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  void updateCompany(String newCompany) {
+    company = newCompany;
+    notifyListeners();
+  }
+
   void resetFilters() {
     salary = 0.0;
-    distance = 0.0;
+    location = '';
     type = '';
     modality = '';
+    company = '';
     notifyListeners();
+  }
+
+  bool isFilterActive() {
+    return salary > 0.0 || location.isNotEmpty || type.isNotEmpty || modality.isNotEmpty || company.isNotEmpty;
   }
 
   void resetSalary() {
@@ -39,8 +50,8 @@ class FilterProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  void resetDistance() {
-    distance = 0.0;
+  void resetLocation() {
+    location = '';
     notifyListeners();
   }
 
@@ -51,6 +62,11 @@ class FilterProvider with ChangeNotifier {
 
   void resetWorkMode() {
     modality = '';
+    notifyListeners();
+  }
+
+  void resetCompany() {
+    company = '';
     notifyListeners();
   }
 }

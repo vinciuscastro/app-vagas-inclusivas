@@ -1,6 +1,6 @@
 import 'package:app_kimberle/providers/job.dart';
 import 'package:flutter/material.dart';
-import 'package:app_kimberle/components/info_vaga_individual.dart';
+import 'package:app_kimberle/components/job_detail/info_single_job.dart';
 
 class InfoCard extends StatelessWidget {
   final Job vaga;
@@ -56,7 +56,7 @@ class InfoCard extends StatelessWidget {
         physics: NeverScrollableScrollPhysics(),
         itemCount: jobInfo.length,
         itemBuilder: (context, index) {
-          return InfoVagaIndividual(
+          return InfoSingleJob(
             icone: jobInfo[index]['icone'],
             titulo: jobInfo[index]['titulo'],
             conteudo: jobInfo[index]['conteudo'],

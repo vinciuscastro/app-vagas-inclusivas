@@ -1,4 +1,4 @@
-import 'package:app_kimberle/components/filter.dart';
+import 'package:app_kimberle/components/home/filter_component.dart';
 import 'package:flutter/material.dart';
 
 class HomeFilters extends StatelessWidget {
@@ -15,6 +15,7 @@ class HomeFilters extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          const SizedBox(height: 20),
           Text('Busca',style: Theme.of(context).textTheme.bodySmall,),
           const SizedBox(height: 10),
           TextField(
@@ -43,9 +44,11 @@ class HomeFilters extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             child: Row(
               children: [
-                // Filter("Salário", _filterJobs),
-                Filter("Tipo", _filterJobs),
-                Filter("Modalidade", _filterJobs),
+                FilterComponent("Salário", _filterJobs),
+                FilterComponent("Tipo", _filterJobs),
+                FilterComponent("Modalidade", _filterJobs),
+                FilterComponent("Localização", _filterJobs),
+                FilterComponent("Empresa", _filterJobs),
               ],
             ),
           )

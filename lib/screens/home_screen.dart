@@ -1,13 +1,14 @@
+import 'package:app_kimberle/components/home/clear_filter.dart';
+import 'package:app_kimberle/components/others/footer_component.dart';
 import 'package:app_kimberle/components/home/home_filters.dart';
-import 'package:app_kimberle/components/home_card.dart';
+import 'package:app_kimberle/components/home/home_card.dart';
 import 'package:app_kimberle/components/others/job_quantity.dart';
 import 'package:app_kimberle/providers/filter_provider.dart';
 import 'package:app_kimberle/providers/jobs.dart';
 import 'package:app_kimberle/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import '../components/filter.dart';
+import '../components/home/filter_component.dart';
 import '../providers/job.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -36,17 +37,19 @@ class _HomeScreenState extends State<HomeScreen> {
   void _filterJobs() {
     final filterProvider = Provider.of<FilterProvider>(context, listen: false);
     final searchQuery = searchController.text.toLowerCase();
-
     final filteredJobs = vagas.where((vaga) {
       final matchesSearch = vaga.name.toLowerCase().contains(searchQuery);
       final matchesSalary = vaga.salary >= filterProvider.salary;
-      // final matchesDistance = vaga.location <= filterProvider.distance;
+      final matchesLocation = filterProvider.location.isEmpty ||
+          vaga.location.toLowerCase().contains(filterProvider.location.toLowerCase());
       final matchesJobType =
           filterProvider.type.isEmpty || vaga.type == filterProvider.type;
       final matchesWorkMode = filterProvider.modality.isEmpty ||
           vaga.modality == filterProvider.modality;
+      final matchesCompany = filterProvider.company.isEmpty ||
+          vaga.company.toLowerCase().contains(filterProvider.company.toLowerCase());
 
-      return matchesSearch && matchesJobType && matchesWorkMode && matchesSalary;
+      return matchesSearch && matchesJobType && matchesWorkMode && matchesSalary && matchesLocation && matchesCompany;
     }).toList();
 
     setState(() {
@@ -81,7 +84,12 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             HomeFilters(searchController, _filterJobs),
-            JobQuantity(size: vagasFiltradas.length, label: 'Vagas Disponiveis'),
+            Row(
+              children: [
+                JobQuantity(size: vagasFiltradas.length, label: 'Vagas Disponiveis'),
+                ClearFilter(searchController, _filterJobs),
+              ],
+            ),
 
             ListView.builder(
               shrinkWrap: true,
@@ -98,6 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 );
               },
             ),
+            const FooterComponent(),
           ],
         ),
       ),

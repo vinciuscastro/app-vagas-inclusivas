@@ -1,16 +1,18 @@
+import 'package:app_kimberle/components/filters/company_dialog.dart';
+import 'package:app_kimberle/components/filters/location_dialog.dart';
 import 'package:app_kimberle/components/filters/salary_dialog.dart';
 import 'package:app_kimberle/components/filters/type_dialog.dart';
 import 'package:app_kimberle/providers/filter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'filters/modality_dialog.dart';
+import '../filters/modality_dialog.dart';
 
-class Filter extends StatelessWidget {
+class FilterComponent extends StatelessWidget {
   final String filterName;
   final VoidCallback _callback;
 
-  Filter(this.filterName, this._callback);
+  FilterComponent(this.filterName, this._callback);
 
   @override
   Widget build(BuildContext context) {
@@ -29,8 +31,12 @@ class Filter extends StatelessWidget {
                     return TypeDialog(_callback);
                   } else if (filterName == 'Modalidade') {
                     return ModalityDialog(_callback);
-                  } else {
+                  } else if (filterName == 'Salário') {
                     return SalaryDialog(_callback);
+                  } else if (filterName == 'Localização') {
+                    return LocationDialog(_callback);
+                  } else {
+                    return CompanyDialog(_callback);
                   }
                 }
             );

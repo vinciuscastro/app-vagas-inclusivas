@@ -1,6 +1,6 @@
 import 'package:app_kimberle/components/others/favorite_icon.dart';
 import 'package:app_kimberle/providers/job.dart';
-import 'info_card.dart';
+import '../job_detail/info_card.dart';
 import 'package:flutter/material.dart';
 
 class HomeCard extends StatelessWidget {

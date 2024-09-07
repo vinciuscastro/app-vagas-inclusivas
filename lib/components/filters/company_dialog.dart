@@ -2,14 +2,14 @@ import 'package:app_kimberle/providers/filter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-class SalaryDialog extends StatelessWidget {
+class CompanyDialog extends StatelessWidget {
   final VoidCallback _callback;
-  const SalaryDialog(this._callback, {super.key});
+  const CompanyDialog(this._callback, {super.key});
 
   @override
   Widget build(BuildContext context) {
     final filterProvider = Provider.of<FilterProvider>(context);
-    TextEditingController salaryController = TextEditingController();
+    TextEditingController companyController = TextEditingController();
     return Dialog(
 
       shape: RoundedRectangleBorder(
@@ -23,7 +23,7 @@ class SalaryDialog extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              'Salário',
+              'Empresa',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -32,15 +32,14 @@ class SalaryDialog extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             TextField(
-              controller: salaryController,
-              keyboardType: TextInputType.number,
+              controller: companyController,
               style: const TextStyle(color: Colors.black, fontSize: 15),
             ),
 
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                filterProvider.updateSalary(salaryController.text);
+                filterProvider.updateCompany(companyController.text);
                 _callback();
                 Navigator.of(context).pop();
               },

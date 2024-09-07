@@ -8,6 +8,7 @@ class FooterComponent extends StatelessWidget {
     return Container(
       height: 230,
       width: double.infinity,
+      margin: const EdgeInsets.only(top: 20),
       padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
       color: Theme.of(context).primaryColor,
       child: Column(

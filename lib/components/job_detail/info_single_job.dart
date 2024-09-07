@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class InfoVagaIndividual extends StatelessWidget {
+class InfoSingleJob extends StatelessWidget {
   final IconData icone;
   final String titulo;
   final String conteudo;
-  const InfoVagaIndividual({super.key,
+  const InfoSingleJob({super.key,
     required this.icone,
     required this.titulo,
     required this.conteudo,
