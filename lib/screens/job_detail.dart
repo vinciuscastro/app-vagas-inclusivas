@@ -27,6 +27,12 @@ class JobDetail extends StatelessWidget {
           ),
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => {
+        },
+        child: const Icon(Icons.send_rounded),
+
+      ),
       body: Container(
         padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 20),
         color: Colors.black,

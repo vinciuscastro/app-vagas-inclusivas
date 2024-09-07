@@ -10,7 +10,6 @@ import '../providers/jobs.dart';
 import '../providers/job.dart';
 import '../utils/app_routes.dart';
 
-
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -22,6 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
   TextEditingController searchController = TextEditingController();
   List<Job> vagas = [];
   List<Job> vagasFiltradas = [];
+  int itemsToShow = 5;
 
   @override
   void initState() {
@@ -35,7 +35,6 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
-
   void _filterJobs() {
     final filterProvider = Provider.of<FilterProvider>(context, listen: false);
     final searchQuery = searchController.text.toLowerCase();
@@ -43,15 +42,24 @@ class _HomeScreenState extends State<HomeScreen> {
       final matchesSearch = vaga.name.toLowerCase().contains(searchQuery);
       final matchesSalary = vaga.salary >= filterProvider.salary;
       final matchesLocation = filterProvider.location.isEmpty ||
-          vaga.location.toLowerCase().contains(filterProvider.location.toLowerCase());
+          vaga.location
+              .toLowerCase()
+              .contains(filterProvider.location.toLowerCase());
       final matchesJobType =
           filterProvider.type.isEmpty || vaga.type == filterProvider.type;
       final matchesWorkMode = filterProvider.modality.isEmpty ||
           vaga.modality == filterProvider.modality;
       final matchesCompany = filterProvider.company.isEmpty ||
-          vaga.company.toLowerCase().contains(filterProvider.company.toLowerCase());
+          vaga.company
+              .toLowerCase()
+              .contains(filterProvider.company.toLowerCase());
 
-      return matchesSearch && matchesJobType && matchesWorkMode && matchesSalary && matchesLocation && matchesCompany;
+      return matchesSearch &&
+          matchesJobType &&
+          matchesWorkMode &&
+          matchesSalary &&
+          matchesLocation &&
+          matchesCompany;
     }).toList();
 
     setState(() {
@@ -89,15 +97,17 @@ class _HomeScreenState extends State<HomeScreen> {
             HomeFilters(searchController, _filterJobs),
             Row(
               children: [
-                JobQuantity(size: vagasFiltradas.length, label: 'Vagas Disponiveis'),
+                JobQuantity(
+                    size: vagasFiltradas.length, label: 'Vagas Disponiveis'),
                 ClearFilter(searchController, _filterJobs),
               ],
             ),
-
             ListView.builder(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
-              itemCount: vagasFiltradas.length,
+              itemCount: itemsToShow > vagasFiltradas.length
+                  ? vagasFiltradas.length
+                  : itemsToShow,
               itemBuilder: (context, index) {
                 final vaga = vagasFiltradas[index];
                 return InkWell(
@@ -109,6 +119,23 @@ class _HomeScreenState extends State<HomeScreen> {
                 );
               },
             ),
+            if (vagasFiltradas.length > itemsToShow)
+              TextButton(
+                onPressed: () {
+                  setState(() {
+                    itemsToShow += 5;
+                  });
+                },
+                child: Container(
+                    padding: const EdgeInsets.all(10),
+                    alignment: Alignment.center,
+                    width: 200,
+                    decoration: BoxDecoration(
+                      color: Theme.of(context).primaryColor,
+                      borderRadius: BorderRadius.circular(5),
+                    ),
+                    child: Text("Mostrar mais vagas", style: TextStyle(color: Theme.of(context).primaryColorLight, fontWeight: FontWeight.bold, fontSize: 14))),
+              ),
             const FooterComponent(),
           ],
         ),
