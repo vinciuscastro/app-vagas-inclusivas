@@ -7,6 +7,7 @@ class FeedbackModel {
   final int rate;
   final String date;
   final String message;
+  bool reported;
 
   FeedbackModel({
     required this.id,
@@ -15,6 +16,7 @@ class FeedbackModel {
     required this.rate,
     required this.date,
     required this.message,
+    this.reported = false,
   });
 
   factory FeedbackModel.fromJson(Map<String, dynamic> json) {

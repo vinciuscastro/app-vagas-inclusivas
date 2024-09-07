@@ -12,14 +12,13 @@ class FilterComponent extends StatelessWidget {
   final String filterName;
   final VoidCallback _callback;
 
-  FilterComponent(this.filterName, this._callback);
+  const FilterComponent(this.filterName, this._callback, {super.key});
 
   @override
   Widget build(BuildContext context) {
-    final filterProvider = Provider.of<FilterProvider>(context);
 
     return Container(
-      margin: EdgeInsets.only(left: 1, right: 5),
+      margin: const EdgeInsets.only(left: 1, right: 5),
       height: 35,
       color: Theme.of(context).primaryColorLight,
       child: TextButton(
@@ -42,7 +41,7 @@ class FilterComponent extends StatelessWidget {
             );
           },
           child:
-        Text(filterName, style: TextStyle(color: Colors.black, fontSize: 14))
+        Text(filterName, style: const TextStyle(color: Colors.black, fontSize: 14))
       ),
     );
   }

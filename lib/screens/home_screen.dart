@@ -1,17 +1,18 @@
 import 'package:app_kimberle/components/home/clear_filter.dart';
-import 'package:app_kimberle/components/others/footer_component.dart';
-import 'package:app_kimberle/components/home/home_filters.dart';
 import 'package:app_kimberle/components/home/home_card.dart';
+import 'package:app_kimberle/components/home/home_filters.dart';
+import 'package:app_kimberle/components/others/footer_component.dart';
 import 'package:app_kimberle/components/others/job_quantity.dart';
 import 'package:app_kimberle/providers/filter_provider.dart';
 import 'package:app_kimberle/providers/jobs.dart';
 import 'package:app_kimberle/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../components/home/filter_component.dart';
 import '../providers/job.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }

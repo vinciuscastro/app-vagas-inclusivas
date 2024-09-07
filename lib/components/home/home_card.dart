@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 class HomeCard extends StatelessWidget {
   final Job vaga;
-  const HomeCard({Key? key, required this.vaga}) : super(key: key);
+  const HomeCard({super.key, required this.vaga});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class HomeCard extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             Row(
               children: [
                 Text(
@@ -38,11 +38,11 @@ class HomeCard extends StatelessWidget {
                     color: Colors.grey[600],
                   ),
                 ),
-                Spacer(),
+                const Spacer(),
                 FavoriteIcon(vaga: vaga),
               ],
             ),
-            SizedBox(height: 8),
+            const SizedBox(height: 8),
             Text(
               vaga.description,
               style: TextStyle(

@@ -19,21 +19,21 @@ class FooterComponent extends StatelessWidget {
           Text("Sobre nós", style: Theme.of(context).textTheme.labelSmall),
           Text("Contato", style: Theme.of(context).textTheme.labelSmall),
           Text("Termos de uso", style: Theme.of(context).textTheme.labelSmall),
-          Container(
+          SizedBox(
             width: 150,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                IconButton(
-                 icon: Icon(Icons.facebook, color: Colors.white),
+                 icon: const Icon(Icons.facebook, color: Colors.white),
                  onPressed: () => {},
                ),
                 IconButton(
-                  icon: Icon(Icons.phone, color: Colors.white),
+                  icon: const Icon(Icons.phone, color: Colors.white),
                   onPressed: () => {},
                 ),
                 IconButton(
-                  icon: Icon(Icons.email, color: Colors.white),
+                  icon: const Icon(Icons.email, color: Colors.white),
                   onPressed: () => {},
                 ),
               ],

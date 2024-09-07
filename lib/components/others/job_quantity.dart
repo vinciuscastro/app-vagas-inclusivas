@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class JobQuantity extends StatelessWidget {
-  final size;
-  final label;
-
+  final int size;
+  final String label;
   const JobQuantity({super.key, required this.size, required this.label});
   @override
   Widget build(BuildContext context) {
@@ -17,7 +16,7 @@ class JobQuantity extends StatelessWidget {
             label,
             style: Theme.of(context).textTheme.titleSmall,
           ),
-          Text('Total: ${size}',
+          Text('Total: $size',
               style: const TextStyle(color: Color(0xFFD9E7FF))),
         ],
       ),

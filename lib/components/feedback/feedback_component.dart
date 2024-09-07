@@ -25,10 +25,12 @@ class _FeedbackComponentState extends State<FeedbackComponent> {
       children: [
         ListTile(
           contentPadding: EdgeInsets.zero,
-          leading: Icon(Icons.feedback, color: Colors.white),
+          leading: const Icon(Icons.feedback, color: Colors.white),
           trailing: Icon(
               expanded ? Icons.expand_less : Icons.expand_more,
-              color: Colors.white),
+              color: Colors.white,
+              size: 34,
+          ),
           title: Text('Feedbacks',
               style: Theme.of(context).textTheme.titleMedium),
           onTap: () {

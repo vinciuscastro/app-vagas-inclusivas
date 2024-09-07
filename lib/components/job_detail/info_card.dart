@@ -5,7 +5,7 @@ import 'package:app_kimberle/components/job_detail/info_single_job.dart';
 class InfoCard extends StatelessWidget {
   final Job vaga;
 
-  InfoCard({Key? key, required this.vaga}) : super(key: key);
+  const InfoCard({super.key, required this.vaga});
 
   @override
   Widget build(BuildContext context) {
@@ -15,27 +15,27 @@ class InfoCard extends StatelessWidget {
       {
         'icone': Icons.monetization_on,
         'titulo': 'Salário',
-        'conteudo': 'R\$ ${vaga.salary.toStringAsFixed(2)}' ?? 'Não informado',
+        'conteudo': 'R\$ ${vaga.salary.toStringAsFixed(2)}',
       },
       {
         'icone': Icons.business,
         'titulo': 'Tipo de Vaga',
-        'conteudo': vaga.type ?? 'Não informado',
+        'conteudo': vaga.type,
       },
       {
         'icone': Icons.home_work,
         'titulo': 'Modalidade',
-        'conteudo': vaga.modality ?? 'Não informado',
+        'conteudo': vaga.modality,
       },
       {
         'icone': Icons.access_time,
         'titulo': 'Horário',
-        'conteudo': vaga.schedule ?? 'Não informado',
+        'conteudo': vaga.schedule,
       },
       {
         'icone': Icons.location_on,
         'titulo': 'Local',
-        'conteudo': vaga.location ?? 'Não informado',
+        'conteudo': vaga.location,
       },
       {
         'icone': Icons.accessibility,
@@ -52,7 +52,7 @@ class InfoCard extends StatelessWidget {
       elevation: 4,
       child: ListView.builder(
         shrinkWrap: true,
-        physics: NeverScrollableScrollPhysics(),
+        physics: const NeverScrollableScrollPhysics(),
         itemCount: jobInfo.length,
         itemBuilder: (context, index) {
           return InfoSingleJob(

@@ -12,7 +12,6 @@ class FavoriteScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List <Job> vagas = Provider.of<Jobs>(context).favoriteJobs();
-    print(vagas.length);
     return Scaffold(
       appBar: AppBar(
         title: const Padding(
@@ -23,7 +22,7 @@ class FavoriteScreen extends StatelessWidget {
         automaticallyImplyLeading: false,
         actions: [
           IconButton(
-            icon: Icon(Icons.turn_slight_left_outlined, size: 35),
+            icon: const Icon(Icons.turn_slight_left_outlined, size: 35),
             onPressed: () => {
               Navigator.of(context).pop(),
             },
@@ -38,7 +37,7 @@ class FavoriteScreen extends StatelessWidget {
               shrinkWrap:
               true, // Garante que o ListView não tente expandir indefinidamente
               physics:
-              NeverScrollableScrollPhysics(), // Remove a rolagem do ListView, deixando apenas a rolagem principal
+              const NeverScrollableScrollPhysics(), // Remove a rolagem do ListView, deixando apenas a rolagem principal
               itemCount: vagas.length,
               itemBuilder: (context, index) {
                 final vaga = vagas[index];

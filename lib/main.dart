@@ -5,10 +5,7 @@ import 'package:app_kimberle/screens/favorite_screen.dart';
 import 'package:app_kimberle/screens/home_screen.dart';
 import 'package:app_kimberle/screens/job_detail.dart';
 import 'package:app_kimberle/utils/app_routes.dart';
-
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 
@@ -29,12 +26,12 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Kimberle - Vagas de Emprego',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF2A4673)),
+          colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF2A4673)),
           primarySwatch: Colors.blue,
-          primaryColor: Color(0xFF2A4673),
-          primaryColorLight: Color(0xFFD9E7FF),
-          primaryColorDark: Color(0xFF2A4673),
-          scaffoldBackgroundColor: Color(0xFF1E1E1E),
+          primaryColor: const Color(0xFF2A4673),
+          primaryColorLight: const Color(0xFFD9E7FF),
+          primaryColorDark: const Color(0xFF2A4673),
+          scaffoldBackgroundColor: const Color(0xFF1E1E1E),
           textTheme: const TextTheme(
             bodySmall: TextStyle(fontSize: 16, color: Color(0xFFD9E7FF)),
             labelSmall: TextStyle(fontSize: 14, color: Color(0xFFD9E7FF)),
@@ -49,10 +46,10 @@ class MyApp extends StatelessWidget {
             titleTextStyle: TextStyle(color: Color(0xFFD9E7FF), fontSize: 32, fontWeight: FontWeight.bold),
           ),
         ),
-        home: HomeScreen(),
+        home: const HomeScreen(),
         routes: {
-          AppRoutes.JOB_DETAIL: (ctx) => JobDetail(),
-          AppRoutes.FAVORITES: (ctx) => FavoriteScreen(),
+          AppRoutes.JOB_DETAIL: (ctx) => const JobDetail(),
+          AppRoutes.FAVORITES: (ctx) => const FavoriteScreen(),
 
         }
       ),

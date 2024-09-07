@@ -1,9 +1,9 @@
 import 'package:app_kimberle/models/feedback_model.dart';
-import 'package:app_kimberle/providers/job.dart';
 import 'package:flutter/material.dart';
 
 class FeedbackCard extends StatelessWidget {
   final FeedbackModel feedback;
+
   const FeedbackCard({Key? key, required this.feedback}) : super(key: key);
 
   @override
@@ -19,25 +19,73 @@ class FeedbackCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              feedback.name,
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+            Row(children: [
+              Text(
+                feedback.name,
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-            SizedBox(height: 2),
+              const Spacer(),
+              GestureDetector(
+                onTap: () {
+                  if (feedback.reported) {
+                    showDialog(
+                      context: context,
+                      builder: (context) => AlertDialog(
+                        title: const Text("Feedback denunciado", style: TextStyle(color: Colors.red, fontSize: 18)),
+                        content: const Text("Esse feedback já foi denunciado."),
+                        actions: [
+                          TextButton(
+                            onPressed: () {
+                              Navigator.of(context).pop();
+                            },
+                            child: const Text("Ok"),
+                          ),
+                        ],
+                      ),
+                    );
+                  }
+                  else {
+                  showDialog(
+                    context: context,
+                    builder: (context) => AlertDialog(
+                      title: const Text("Denunciar feedback"),
+                      content: const Text("Deseja denunciar esse feedback?"),
+                      actions: [
+                        TextButton(
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                          },
+                          child: const Text("Cancelar"),
+                        ),
+                        TextButton(
+                          onPressed: () {
+                            feedback.reported = true;
+                            Navigator.of(context).pop();
+                          },
+                          child: const Text("Denunciar"),
+                        ),
+                      ],
+                    ),
+                  );
+                }},
+                child: const Icon(Icons.report_problem_outlined, color: Colors.red),
+              ),
+            ]),
+            const SizedBox(height: 2),
             Row(
               children: List.generate(
                 5, // Total de estrelas possíveis
-                    (index) => Icon(
+                (index) => Icon(
                   index < feedback.rate ? Icons.star : Icons.star_border,
                   color: Colors.black,
-                      size: 16,
+                  size: 16,
                 ),
               ),
             ),
-            SizedBox(height: 4),
+            const SizedBox(height: 4),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -50,14 +98,13 @@ class FeedbackCard extends StatelessWidget {
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                 ),
-                Row(
+                const Row(
                   children: [
                     Text("Ler mais", style: TextStyle(fontSize: 12)),
                     SizedBox(width: 4),
                     Icon(Icons.more, color: Colors.black, size: 16),
                   ],
                 )
-
               ],
             ),
           ],

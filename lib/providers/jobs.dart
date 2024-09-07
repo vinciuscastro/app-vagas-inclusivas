@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 
 class Jobs with ChangeNotifier {
 
-  List<Job> _jobs = [];
+  final List<Job> _jobs = [];
 
   List<Job> get jobs => [..._jobs];
 

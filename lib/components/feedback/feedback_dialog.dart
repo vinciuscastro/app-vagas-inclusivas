@@ -11,18 +11,18 @@ void FeedBackDialog(BuildContext context, FeedbackModel feedback) {
         ),
         titlePadding: EdgeInsets.zero,
         content: Container(
-          padding: EdgeInsets.all(8),
+          padding: const EdgeInsets.all(8),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               Text(
                 feedback.name,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(height: 2),
+              const SizedBox(height: 2),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -36,7 +36,7 @@ void FeedBackDialog(BuildContext context, FeedbackModel feedback) {
                       ),
                     ),
                   ),
-                  SizedBox(width: 10),
+                  const SizedBox(width: 10),
                   Text(
                     feedback.date,
                     style: TextStyle(
@@ -46,10 +46,10 @@ void FeedBackDialog(BuildContext context, FeedbackModel feedback) {
                   ),
                 ],
               ),
-              SizedBox(height: 16),
+              const SizedBox(height: 16),
               Text(
                 feedback.message,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 16,
                 ),
               ),
