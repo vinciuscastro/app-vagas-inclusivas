@@ -4,6 +4,7 @@ import 'package:app_kimberle/providers/jobs.dart';
 import 'package:app_kimberle/screens/favorite_screen.dart';
 import 'package:app_kimberle/screens/home_screen.dart';
 import 'package:app_kimberle/screens/job_detail.dart';
+import 'package:app_kimberle/screens/settings_screen.dart';
 import 'package:app_kimberle/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -61,6 +62,7 @@ class MyApp extends StatelessWidget {
         routes: {
           AppRoutes.JOB_DETAIL: (ctx) => const JobDetail(),
           AppRoutes.FAVORITES: (ctx) => const FavoriteScreen(),
+          AppRoutes.SETTINGS: (ctx) => const SettingsScreen(),
 
         }
       ),

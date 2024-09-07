@@ -77,7 +77,9 @@ class _HomeScreenState extends State<HomeScreen> {
         actions: [
           IconButton(
             icon: const Icon(Icons.settings, size: 30),
-            onPressed: () => {},
+            onPressed: () => {
+              Navigator.of(context).pushNamed(AppRoutes.SETTINGS),
+            },
           ),
         ],
       ),
