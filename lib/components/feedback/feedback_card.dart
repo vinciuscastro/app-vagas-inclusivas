@@ -71,7 +71,7 @@ class FeedbackCard extends StatelessWidget {
                     ),
                   );
                 }},
-                child: const Icon(Icons.report_problem_outlined, color: Colors.red),
+                child: Icon(feedback.reported ? Icons.flag : Icons.flag_outlined, color: Colors.red),
               ),
             ]),
             const SizedBox(height: 2),

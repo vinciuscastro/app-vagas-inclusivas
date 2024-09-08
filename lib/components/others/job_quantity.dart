@@ -7,7 +7,6 @@ class JobQuantity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.only(left: 30, top: 20, bottom: 10, right: 20),
       alignment: Alignment.bottomLeft,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

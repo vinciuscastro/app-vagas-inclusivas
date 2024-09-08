@@ -95,12 +95,16 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             HomeFilters(searchController, _filterJobs),
-            Row(
-              children: [
-                JobQuantity(
-                    size: vagasFiltradas.length, label: 'Vagas Disponiveis'),
-                ClearFilter(searchController, _filterJobs),
-              ],
+            Container(
+              padding: const EdgeInsets.only(left: 30, top: 20, bottom: 10, right: 30),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  JobQuantity(
+                      size: vagasFiltradas.length, label: 'Vagas Disponiveis'),
+                  ClearFilter(searchController, _filterJobs),
+                ],
+              ),
             ),
             ListView.builder(
               shrinkWrap: true,
