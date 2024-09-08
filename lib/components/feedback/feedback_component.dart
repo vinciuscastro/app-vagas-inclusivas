@@ -31,8 +31,8 @@ class _FeedbackComponentState extends State<FeedbackComponent> {
               color: Colors.white,
               size: 34,
           ),
-          title: Text('Feedbacks',
-              style: Theme.of(context).textTheme.titleMedium),
+          title: Text('Feedbacks inclusão',
+              style: Theme.of(context).textTheme.titleSmall),
           onTap: () {
             setState(() {
               expanded = !expanded;

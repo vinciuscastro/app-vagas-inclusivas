@@ -1,5 +1,6 @@
 import 'package:app_kimberle/components/feedback/feedback_component.dart';
 import 'package:app_kimberle/components/job_detail/info_card.dart';
+import 'package:app_kimberle/components/job_detail/submit_button.dart';
 import 'package:app_kimberle/providers/job.dart';
 import 'package:flutter/material.dart';
 import '../components/others/footer_component.dart';
@@ -27,12 +28,6 @@ class JobDetail extends StatelessWidget {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => {
-        },
-        child: const Icon(Icons.send_rounded),
-
-      ),
       body: Container(
         padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 20),
         color: Colors.black,
@@ -40,11 +35,13 @@ class JobDetail extends StatelessWidget {
           child: Column(
             children: [
               Container(
-              padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(vaga.name, style: Theme.of(context).textTheme.titleLarge),
+                    Text(vaga.name,
+                        style: Theme.of(context).textTheme.titleLarge),
                     Text(vaga.company,
                         style: Theme.of(context).textTheme.bodySmall),
                     const SizedBox(height: 30),
@@ -57,11 +54,13 @@ class JobDetail extends StatelessWidget {
                     Text(vaga.description,
                         style: Theme.of(context).textTheme.bodySmall),
                     const SizedBox(height: 30),
+                    const SubmitButton(),
+                    const SizedBox(height: 20),
                     FeedbackComponent(company: vaga.company),
                   ],
                 ),
               ),
-                    const FooterComponent(),
+              const FooterComponent(),
             ],
           ),
         ),

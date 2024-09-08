@@ -32,7 +32,9 @@ class FavoriteScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            JobQuantity(size: vagas.length, label: 'Vagas Favoritas'),
+            Container(
+                padding: const EdgeInsets.only(left: 30, top: 20, bottom: 10),
+                child: JobQuantity(size: vagas.length, label: 'Vagas Favoritas')),
             ListView.builder(
               shrinkWrap:
               true, // Garante que o ListView não tente expandir indefinidamente
