@@ -56,8 +56,7 @@ class LocationDialog extends StatelessWidget {
                   _callback();
                   Navigator.of(context).pop();
                 },
-                child: Text('Aplicar Filtro', style: Theme.of(context).textTheme.bodySmall),
-              ),
+                child: const Text('Aplicar Filtro', style: TextStyle(color: Colors.white, fontSize: 16)),              ),
             ),
           ],
         ),

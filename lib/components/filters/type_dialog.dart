@@ -37,7 +37,7 @@ class TypeDialog extends StatelessWidget {
             DropdownButton<String>(
               value: filterProvider.type,
               icon: const Icon(Icons.expand_more),
-              dropdownColor: Theme.of(context).primaryColorLight,
+              dropdownColor: Colors.white,
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 14,
@@ -71,8 +71,7 @@ class TypeDialog extends StatelessWidget {
                   _callback();
                   Navigator.of(context).pop();
                 },
-                child: Text('Aplicar Filtro',
-                    style: Theme.of(context).textTheme.bodySmall),
+                child: const Text('Aplicar Filtro', style: TextStyle(color: Colors.white, fontSize: 16)),
               ),
             ),
           ],

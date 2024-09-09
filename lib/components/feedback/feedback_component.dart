@@ -25,10 +25,14 @@ class _FeedbackComponentState extends State<FeedbackComponent> {
       children: [
         ListTile(
           contentPadding: EdgeInsets.zero,
-          leading: const Icon(Icons.feedback, color: Colors.white),
+          leading: Icon(
+            Icons.feedback,
+            color: Theme.of(context).primaryColorDark,
+            size: 30,
+          ),
           trailing: Icon(
               expanded ? Icons.expand_less : Icons.expand_more,
-              color: Colors.white,
+              color: Theme.of(context).primaryColorDark,
               size: 34,
           ),
           title: Text('Feedbacks inclusão',

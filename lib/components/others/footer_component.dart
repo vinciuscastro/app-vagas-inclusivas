@@ -25,15 +25,15 @@ class FooterComponent extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                IconButton(
-                 icon: const Icon(Icons.facebook, color: Colors.white),
+                 icon: Icon(Icons.facebook, color: Theme.of(context).primaryColorDark),
                  onPressed: () => {},
                ),
                 IconButton(
-                  icon: const Icon(Icons.phone, color: Colors.white),
+                  icon: Icon(Icons.phone, color: Theme.of(context).primaryColorDark),
                   onPressed: () => {},
                 ),
                 IconButton(
-                  icon: const Icon(Icons.email, color: Colors.white),
+                  icon: Icon(Icons.email, color: Theme.of(context).primaryColorDark),
                   onPressed: () => {},
                 ),
               ],

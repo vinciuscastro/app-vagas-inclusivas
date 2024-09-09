@@ -34,11 +34,11 @@ class ModalityDialog extends StatelessWidget {
             DropdownButton<String>(
               value: filterProvider.modality,
               icon: const Icon(Icons.expand_more),
-              dropdownColor: Theme.of(context).primaryColorLight,
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 14,
               ),
+              dropdownColor: Colors.white,
               underline: Container(
                 height: 2,
                 color: Theme.of(context).primaryColor,
@@ -69,8 +69,7 @@ class ModalityDialog extends StatelessWidget {
                   _callback();
                   Navigator.of(context).pop();
                 },
-                child: Text('Aplicar Filtro',
-                    style: Theme.of(context).textTheme.bodySmall),
+                child: const Text('Aplicar Filtro', style: TextStyle(color: Colors.white, fontSize: 16)),
               ),
             ),
           ],

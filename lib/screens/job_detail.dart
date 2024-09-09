@@ -29,8 +29,7 @@ class JobDetail extends StatelessWidget {
         ],
       ),
       body: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 20),
-        color: Colors.black,
+        padding: const EdgeInsets.only(top: 20),
         child: SingleChildScrollView(
           child: Column(
             children: [

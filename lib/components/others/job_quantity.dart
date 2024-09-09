@@ -16,7 +16,10 @@ class JobQuantity extends StatelessWidget {
             style: Theme.of(context).textTheme.titleSmall,
           ),
           Text('Total: $size',
-              style: const TextStyle(color: Color(0xFFD9E7FF))),
+              style: TextStyle(
+                color: Theme.of(context).textTheme.bodySmall?.color,
+                fontSize: 14,
+              )),
         ],
       ),
     );

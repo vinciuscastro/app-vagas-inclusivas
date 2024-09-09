@@ -1,4 +1,6 @@
+import 'package:app_kimberle/providers/settings_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({super.key});
@@ -9,13 +11,13 @@ class SettingsScreen extends StatefulWidget {
 
 class _SettingsScreenState extends State<SettingsScreen> {
   String? _selectedLanguage = 'Português';
-  bool _isDarkTheme = true;
   bool _isNotificationEnabled = true;
   final List<String> _languages = ['Português', 'Inglês', 'Espanhol', 'Francês'];
 
 
   @override
   Widget build(BuildContext context) {
+    final settings = Provider.of<SettingsProvider>(context);
     return Scaffold(
       appBar: AppBar(
         title: const Padding(
@@ -34,7 +36,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
       ),
       body: Container(
         padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 20),
-        color: Colors.black,
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -64,9 +65,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       children: [
                         Text('Tema escuro', style: Theme.of(context).textTheme.bodySmall),
                         const Spacer(),
-                        Switch(value: _isDarkTheme, onChanged: (value) {
+                        Switch(value: settings.isDarkMode, onChanged: (value) {
                           setState(() {
-                            _isDarkTheme = value;
+                            settings.toggleTheme();
+                            print(settings.isDarkMode);
                           });
                         }),
 
