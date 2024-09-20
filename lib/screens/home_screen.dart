@@ -53,13 +53,15 @@ class _HomeScreenState extends State<HomeScreen> {
           vaga.company
               .toLowerCase()
               .contains(filterProvider.company.toLowerCase());
-
+      final matchesMinority = filterProvider.minority.isEmpty ||
+          vaga.minority == filterProvider.minority;
       return matchesSearch &&
           matchesJobType &&
           matchesWorkMode &&
           matchesSalary &&
           matchesLocation &&
-          matchesCompany;
+          matchesCompany &&
+          matchesMinority;
     }).toList();
 
     setState(() {

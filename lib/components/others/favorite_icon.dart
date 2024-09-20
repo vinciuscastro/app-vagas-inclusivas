@@ -18,7 +18,11 @@ class _FavoriteIconState extends State<FavoriteIcon> {
           widget.vaga.isFavorite = !widget.vaga.isFavorite;
         });
       },
-      child: Icon(widget.vaga.isFavorite ? Icons.favorite : Icons.favorite_border),
+      child: Icon(widget.vaga.isFavorite ? Icons.favorite : Icons.favorite_border,
+      color: widget.vaga.isFavorite ? Colors.red : Colors.grey,
+      size: 30,
+      ),
+
     );
   }
 }

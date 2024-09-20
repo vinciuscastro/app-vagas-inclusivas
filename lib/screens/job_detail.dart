@@ -1,6 +1,7 @@
 import 'package:app_kimberle/components/feedback/feedback_component.dart';
 import 'package:app_kimberle/components/job_detail/info_card.dart';
 import 'package:app_kimberle/components/job_detail/submit_button.dart';
+import 'package:app_kimberle/components/others/favorite_icon.dart';
 import 'package:app_kimberle/providers/job.dart';
 import 'package:flutter/material.dart';
 import '../components/others/footer_component.dart';
@@ -41,8 +42,15 @@ class JobDetail extends StatelessWidget {
                   children: [
                     Text(vaga.name,
                         style: Theme.of(context).textTheme.titleLarge),
-                    Text(vaga.company,
-                        style: Theme.of(context).textTheme.bodySmall),
+                    const SizedBox(height: 10),
+                    Row(
+                      children: [
+                        Text(vaga.company,
+                            style: Theme.of(context).textTheme.bodySmall),
+                        const Spacer(),
+                        FavoriteIcon(vaga: vaga),
+                      ],
+                    ),
                     const SizedBox(height: 30),
                     Text("Informações",
                         style: Theme.of(context).textTheme.titleMedium),

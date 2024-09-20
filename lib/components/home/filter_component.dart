@@ -2,6 +2,8 @@ import 'package:app_kimberle/components/filters/company_dialog.dart';
 import 'package:app_kimberle/components/filters/location_dialog.dart';
 import 'package:app_kimberle/components/filters/salary_dialog.dart';
 import 'package:app_kimberle/components/filters/type_dialog.dart';
+import 'package:app_kimberle/components/filters/minority_dialog.dart';
+
 import 'package:app_kimberle/providers/filter_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -34,8 +36,10 @@ class FilterComponent extends StatelessWidget {
                     return SalaryDialog(_callback);
                   } else if (filterName == 'Localização') {
                     return LocationDialog(_callback);
-                  } else {
+                  } else if (filterName == 'Empresa') {
                     return CompanyDialog(_callback);
+                  } else  {
+                    return MinorityDialog(_callback);
                   }
                 }
             );

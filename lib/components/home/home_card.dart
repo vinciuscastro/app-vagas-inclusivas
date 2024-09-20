@@ -1,6 +1,4 @@
-import 'package:app_kimberle/components/others/favorite_icon.dart';
 import 'package:app_kimberle/providers/job.dart';
-import '../job_detail/info_card.dart';
 import 'package:flutter/material.dart';
 
 class HomeCard extends StatelessWidget {
@@ -21,12 +19,18 @@ class HomeCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              vaga.name,
-              style: const TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
+            Row(
+              children: [
+                Text(
+                  vaga.name,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    overflow: TextOverflow.ellipsis,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
             ),
             const SizedBox(height: 8),
             Row(
@@ -39,7 +43,11 @@ class HomeCard extends StatelessWidget {
                   ),
                 ),
                 const Spacer(),
-                FavoriteIcon(vaga: vaga),
+                Text(vaga.minority,
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.grey[600],
+                    )),
               ],
             ),
             const SizedBox(height: 8),

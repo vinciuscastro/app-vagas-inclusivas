@@ -6,6 +6,7 @@ class FilterProvider with ChangeNotifier {
   String type = '';
   String modality = '';
   String company = '';
+  String minority = '';
 
   void updateSalary(String newSalary) {
     salary = double.parse(newSalary);
@@ -32,17 +33,23 @@ class FilterProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  void updateMinority(String newMinority) {
+    minority = newMinority;
+    notifyListeners();
+  }
+
   void resetFilters() {
     salary = 0.0;
     location = '';
     type = '';
     modality = '';
     company = '';
+    minority = '';
     notifyListeners();
   }
 
   bool isFilterActive() {
-    return salary > 0.0 || location.isNotEmpty || type.isNotEmpty || modality.isNotEmpty || company.isNotEmpty;
+    return salary > 0.0 || location.isNotEmpty || type.isNotEmpty || modality.isNotEmpty || company.isNotEmpty || minority.isNotEmpty;
   }
 
   void resetSalary() {
@@ -67,6 +74,11 @@ class FilterProvider with ChangeNotifier {
 
   void resetCompany() {
     company = '';
+    notifyListeners();
+  }
+
+  void resetMinority() {
+    minority = '';
     notifyListeners();
   }
 }

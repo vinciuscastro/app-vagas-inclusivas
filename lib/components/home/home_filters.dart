@@ -49,6 +49,7 @@ class HomeFilters extends StatelessWidget {
                 FilterComponent("Modalidade", _filterJobs),
                 FilterComponent("Localização", _filterJobs),
                 FilterComponent("Empresa", _filterJobs),
+                FilterComponent("Minoria", _filterJobs),
               ],
             ),
           )

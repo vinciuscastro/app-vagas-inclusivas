@@ -11,6 +11,7 @@ class Job with ChangeNotifier {
   final String company;
   final String type;
   final String modality;
+  final String minority;
   final String schedule;
   final List<String> benefits;
   bool isFavorite;
@@ -24,6 +25,7 @@ class Job with ChangeNotifier {
     required this.company,
     required this.type,
     required this.modality,
+    required this.minority,
     required this.schedule,
     required this.benefits,
     this.isFavorite = false,
@@ -45,6 +47,7 @@ class Job with ChangeNotifier {
       company: json['company'],
       type: json['type'],
       modality: json['modality'],
+      minority: json['minority'],
       schedule: json['schedule'],
       benefits: (json['benefits'] as List<dynamic>).map((item) => item.toString()).toList(),
     );

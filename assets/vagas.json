@@ -7,6 +7,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -22,6 +23,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sábado, 8h às 16h",
     "location": "Rio de Janeiro, RJ",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Vale Transporte",
       "Vale Alimentação",
@@ -37,6 +39,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -52,6 +55,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 10h às 19h",
     "location": "Belo Horizonte, MG",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -67,6 +71,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Curitiba, PR",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -82,6 +87,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 13h às 18h",
     "location": "Porto Alegre, RS",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Vale Transporte",
       "Vale Alimentação",
@@ -97,6 +103,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -112,6 +119,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -127,6 +135,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Recife, PE",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -142,6 +151,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -157,6 +167,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Goiânia, GO",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -172,6 +183,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Campinas, SP",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -187,6 +199,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 10h às 19h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -202,6 +215,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -217,6 +231,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Natal, RN",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Alimentação",
@@ -232,6 +247,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Bernardo do Campo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -247,6 +263,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 10h às 19h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -262,6 +279,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -277,6 +295,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Fortaleza, CE",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -292,6 +311,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -307,6 +327,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Salvador, BA",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -322,6 +343,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -337,6 +359,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 10h às 19h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -352,6 +375,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -367,6 +391,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 10:00 - 17:00",
     "location": "Rio de Janeiro, RJ",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Assistência Odontológica",
@@ -382,6 +407,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 13:00 - 18:00",
     "location": "Curitiba, PR",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Auxílio Alimentação",
@@ -397,6 +423,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 08:00 - 17:00",
     "location": "Belo Horizonte, MG",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -412,6 +439,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 10:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Transporte",
       "Seguro Saúde",
@@ -427,6 +455,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -442,6 +471,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 10:00 - 17:00",
     "location": "Florianópolis, SC",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Vale Transporte",
       "Auxílio Alimentação",
@@ -457,6 +487,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sábado, 09:00 - 17:00",
     "location": "Salvador, BA",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Comissão",
       "Vale Refeição",
@@ -472,6 +503,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Porto Alegre, RS",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -487,6 +519,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 08:00 - 17:00",
     "location": "Curitiba, PR",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Refeição",
       "Plano Odontológico",
@@ -502,6 +535,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Campinas, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Alimentação",
       "Plano de Saúde",
@@ -517,6 +551,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Refeição",
       "Seguro Saúde",
@@ -532,6 +567,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Remoto",
+    "minority": "Mulheres",
     "benefits": [
       "Auxílio Home Office",
       "Seguro Saúde",
@@ -547,6 +583,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 17:00",
     "location": "Remoto",
+    "minority": "Mulheres",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -562,6 +599,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 08:00 - 17:00",
     "location": "Belo Horizonte, MG",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -577,6 +615,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 10:00 - 19:00",
     "location": "Recife, PE",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -592,6 +631,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -607,6 +647,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -622,6 +663,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 10:00 - 19:00",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -637,6 +679,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Porto Alegre, RS",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -652,6 +695,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -667,6 +711,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -682,6 +727,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Curitiba, PR",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -697,6 +743,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 17:00",
     "location": "Remoto",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Transporte",
       "Plano de Saúde",
@@ -712,6 +759,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Belo Horizonte, MG",
+    "minority": "Mulheres",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -727,6 +775,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -742,6 +791,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Alimentação",
       "Plano de Saúde",
@@ -757,6 +807,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Curitiba, PR",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -772,6 +823,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 08:00 - 17:00",
     "location": "Porto Alegre, RS",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -787,6 +839,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -802,6 +855,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sábado, 8h às 16h",
     "location": "Rio de Janeiro, RJ",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Alimentação",
@@ -817,6 +871,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -832,6 +887,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 10h às 19h",
     "location": "Belo Horizonte, MG",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -847,6 +903,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Curitiba, PR",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -862,6 +919,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 13h às 18h",
     "location": "Porto Alegre, RS",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Alimentação",
@@ -877,6 +935,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -892,6 +951,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -907,6 +967,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Recife, PE",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -922,6 +983,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -937,6 +999,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Goiânia, GO",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -952,6 +1015,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Campinas, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -967,6 +1031,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 10h às 19h",
     "location": "São Paulo, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -982,6 +1047,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -997,6 +1063,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Natal, RN",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Transporte",
       "Vale Alimentação",
@@ -1012,6 +1079,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Bernardo do Campo, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -1027,6 +1095,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 10h às 19h",
     "location": "São Paulo, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -1042,6 +1111,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -1057,6 +1127,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Fortaleza, CE",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -1072,6 +1143,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -1087,6 +1159,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 8h às 17h",
     "location": "Salvador, BA",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -1102,6 +1175,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a Sexta, 9h às 18h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -1117,6 +1191,7 @@
     "modality": "Hibrido",
     "schedule": "Segunda a Sexta, 10h às 19h",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -1132,6 +1207,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -1147,6 +1223,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 10:00 - 17:00",
     "location": "Rio de Janeiro, RJ",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Assistência Odontológica",
@@ -1162,6 +1239,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 13:00 - 18:00",
     "location": "Curitiba, PR",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Auxílio Alimentação",
@@ -1177,6 +1255,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 08:00 - 17:00",
     "location": "Belo Horizonte, MG",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -1192,6 +1271,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 10:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Transporte",
       "Seguro Saúde",
@@ -1207,6 +1287,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -1222,6 +1303,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 10:00 - 17:00",
     "location": "Florianópolis, SC",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Auxílio Alimentação",
@@ -1237,6 +1319,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sábado, 09:00 - 17:00",
     "location": "Salvador, BA",
+    "minority": "Mulheres",
     "benefits": [
       "Comissão",
       "Vale Refeição",
@@ -1252,6 +1335,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Porto Alegre, RS",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Auxílio Home Office",
@@ -1267,6 +1351,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 08:00 - 17:00",
     "location": "Curitiba, PR",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Refeição",
       "Plano Odontológico",
@@ -1282,6 +1367,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Campinas, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Alimentação",
       "Plano de Saúde",
@@ -1297,6 +1383,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Refeição",
       "Seguro Saúde",
@@ -1312,6 +1399,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Home Office",
       "Seguro Saúde",
@@ -1327,6 +1415,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 17:00",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -1342,6 +1431,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 08:00 - 17:00",
     "location": "Belo Horizonte, MG",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Alimentação",
@@ -1357,6 +1447,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 10:00 - 19:00",
     "location": "Recife, PE",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Transporte",
       "Vale Refeição",
@@ -1372,6 +1463,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -1387,6 +1479,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -1402,6 +1495,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 10:00 - 19:00",
     "location": "Remoto",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -1417,6 +1511,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Porto Alegre, RS",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -1432,6 +1527,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Remoto",
+    "minority": "Mulheres",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -1447,6 +1543,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -1462,6 +1559,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Curitiba, PR",
+    "minority": "Mulheres",
     "benefits": [
       "Plano de Saúde",
       "Vale Refeição",
@@ -1477,6 +1575,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 17:00",
     "location": "Remoto",
+    "minority": "Mulheres",
     "benefits": [
       "Vale Transporte",
       "Plano de Saúde",
@@ -1492,6 +1591,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Belo Horizonte, MG",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -1507,6 +1607,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "São Paulo, SP",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
@@ -1522,6 +1623,7 @@
     "modality": "Remoto",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Remoto",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Vale Alimentação",
       "Plano de Saúde",
@@ -1537,6 +1639,7 @@
     "modality": "Híbrido",
     "schedule": "Segunda a sexta, 09:00 - 18:00",
     "location": "Curitiba, PR",
+    "minority": "Pessoas LGBT",
     "benefits": [
       "Auxílio Home Office",
       "Plano de Saúde",
@@ -1552,6 +1655,7 @@
     "modality": "Presencial",
     "schedule": "Segunda a sexta, 08:00 - 17:00",
     "location": "Porto Alegre, RS",
+    "minority": "Pessoas Pretas",
     "benefits": [
       "Vale Refeição",
       "Plano de Saúde",
