@@ -1,16 +1,45 @@
-# app_kimberle
+# Kimberlé
 
-A new Flutter project.
+É um aplicativo móvel desenvolvido em Flutter, voltado para conectar minorias com oportunidades de emprego afirmativas, oferecendo uma experiência de busca inclusiva e acessível. Nosso objetivo é facilitar o acesso a vagas que promovam a diversidade e a inclusão no ambiente de trabalho.
 
-## Getting Started
+## Funcionalidades
+- [x] Busca de vagas inclusivas: o usuário pode buscar vagas de emprego que promovam a diversidade e a inclusão no ambiente de trabalho.
+- [x] Filtros de busca: o usuário pode filtrar as vagas de acordo com critérios como localização, área de atuação, tipo de contratação, entre outros.
+- [x] Área de Feedback: Funcionários e ex-funcionários podem compartilhar feedbacks sobre as práticas de inclusão nas empresas, proporcionando uma visão realista do ambiente de trabalho e sua diversidade.
+- [x] Área de vagas favoritas: o usuário pode salvar vagas de interesse para acessá-las posteriormente.
 
-This project is a starting point for a Flutter application.
+## Layout
+O layout do aplicativo foi desenvolvido com base no Material Design, seguindo as diretrizes do Google. O design foi pensado para ser acessível e inclusivo, com uma paleta de cores contrastantes e fontes legíveis.
 
-A few resources to get you started if this is your first Flutter project:
+## Protótipo
+O protótipo do aplicativo foi desenvolvido no Figma e pode ser acessado [aqui](https://www.figma.com/design/doDYkngAHltqjDwAO5ik72/Prot%C3%B3tipo-Final).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tecnologias
+- Flutter
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalação
+1. Clone o repositório
+```bash
+git clone https://github.com/vinciuscastro/app-vagas-inclusivas
+```
+
+2. Acesse a pasta do projeto
+```bash
+cd app-vagas-inclusivas
+```
+
+3. Instale as dependências
+```bash
+flutter pub get
+```
+
+4. Execute o projeto
+```bash
+flutter run
+```
+
+## Aplicativo disponível em
+```bash	
+apk-release.apk
+```
