@@ -7,6 +7,7 @@
 - [x] Filtros de busca: o usuário pode filtrar as vagas de acordo com critérios como localização, área de atuação, tipo de contratação, entre outros.
 - [x] Área de Feedback: Funcionários e ex-funcionários podem compartilhar feedbacks sobre as práticas de inclusão nas empresas, proporcionando uma visão realista do ambiente de trabalho e sua diversidade.
 - [x] Área de vagas favoritas: o usuário pode salvar vagas de interesse para acessá-las posteriormente.
+- [ ] Persistência de dados: salvar dados de vagas favoritas no dispositivo do usuário.
 
 ## Layout
 O layout do aplicativo foi desenvolvido com base no Material Design, seguindo as diretrizes do Google. O design foi pensado para ser acessível e inclusivo, com uma paleta de cores contrastantes e fontes legíveis.
