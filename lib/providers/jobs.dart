@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'job.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:provider/provider.dart';
+import '../data/db_helper.dart';
 
 class Jobs with ChangeNotifier {
 
@@ -33,8 +34,9 @@ class Jobs with ChangeNotifier {
     }
   }
 
-  List <Job> favoriteJobs() {
-    return _jobs.where((job) => job.isFavorite).toList();
+  Future<List<Job>> favoriteJobs() async {
+    List<Job> vagas = await DatabaseHelper.getData('favorite_jobs');
+    return vagas;
   }
 
 }

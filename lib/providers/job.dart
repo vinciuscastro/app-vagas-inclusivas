@@ -1,6 +1,8 @@
 import 'dart:math';
 
+import 'package:app_kimberle/data/db_helper.dart';
 import 'package:flutter/material.dart';
+
 
 class Job with ChangeNotifier {
   final String id;
@@ -52,6 +54,35 @@ class Job with ChangeNotifier {
       benefits: (json['benefits'] as List<dynamic>).map((item) => item.toString()).toList(),
     );
   }
+
+  Map<String, Object> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'description': description,
+      'salary': salary,
+      'location': location,
+      'company': company,
+      'type': type,
+      'modality': modality,
+      'minority': minority,
+      'schedule': schedule,
+      'benefits': benefits.join(','),
+    };
+  }
+
+  void addFavorite() {
+    isFavorite = true;
+    DatabaseHelper.insert('favorite_jobs', toJson());
+    notifyListeners();
+  }
+
+  void removeFavorite() {
+    isFavorite = false;
+    DatabaseHelper.delete('favorite_jobs', id);
+    notifyListeners();
+  }
+
 
   String toStr() {
     return 'Job{id: $id, name: $name, description: $description, salary: $salary, location: $location, company: $company, type: $type, modality: $modality, schedule: $schedule, benefits: $benefits, isFavorite: $isFavorite}';

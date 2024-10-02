@@ -9,9 +9,12 @@ import '../components/others/footer_component.dart';
 class JobDetail extends StatelessWidget {
   const JobDetail({super.key});
 
+
+
   @override
   Widget build(BuildContext context) {
     final vaga = ModalRoute.of(context)!.settings.arguments as Job;
+
 
     return Scaffold(
       appBar: AppBar(

@@ -1,5 +1,7 @@
+import 'package:app_kimberle/data/db_helper.dart';
 import 'package:app_kimberle/providers/job.dart';
 import 'package:flutter/material.dart';
+
 
 class FavoriteIcon extends StatefulWidget {
   final Job vaga;
@@ -12,10 +14,15 @@ class FavoriteIcon extends StatefulWidget {
 class _FavoriteIconState extends State<FavoriteIcon> {
   @override
   Widget build(BuildContext context) {
+
     return GestureDetector(
       onTap: () {
         setState(() {
-          widget.vaga.isFavorite = !widget.vaga.isFavorite;
+          if (!widget.vaga.isFavorite) {
+            widget.vaga.addFavorite();
+          } else {
+            widget.vaga.removeFavorite();
+          }
         });
       },
       child: Icon(widget.vaga.isFavorite ? Icons.favorite : Icons.favorite_border,
