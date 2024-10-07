@@ -27,7 +27,7 @@ class Jobs with ChangeNotifier {
   Future loadJobs() async {
     final snapshot = await FirebaseFirestore.instance.collection('jobs').get();
     _jobs = snapshot.docs.map((doc) {
-      return Job(
+      Job job = Job(
         id: doc.id,
         name: doc['name'],
         description: doc['description'],
@@ -41,6 +41,7 @@ class Jobs with ChangeNotifier {
         schedule: doc['schedule'],
         benefits: (doc['benefits']).toString().split(',').map((item) => item.toString()).toList(),
       );
+      return job;
     }).toList();
     notifyListeners();
 

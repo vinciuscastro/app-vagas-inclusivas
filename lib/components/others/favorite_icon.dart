@@ -15,21 +15,46 @@ class _FavoriteIconState extends State<FavoriteIcon> {
   @override
   Widget build(BuildContext context) {
 
-    return GestureDetector(
-      onTap: () {
-        setState(() {
-          if (!widget.vaga.isFavorite) {
-            widget.vaga.addFavorite();
-          } else {
-            widget.vaga.removeFavorite();
-          }
-        });
+    return FutureBuilder(
+      future: DatabaseHelper.isFavorited(widget.vaga.id),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return CircularProgressIndicator();
+        } else {
+          widget.vaga.isFavorite = snapshot.data!;
+          return GestureDetector(
+            onTap: () {
+              setState(() {
+                if (!widget.vaga.isFavorite) {
+                  widget.vaga.addFavorite();
+                } else {
+                  widget.vaga.removeFavorite();
+                }
+              });
+            },
+            child: Icon(widget.vaga.isFavorite ? Icons.favorite : Icons.favorite_border,
+              color: widget.vaga.isFavorite ? Colors.red : Colors.grey,
+              size: 30,
+            ),
+          );
+        }
       },
-      child: Icon(widget.vaga.isFavorite ? Icons.favorite : Icons.favorite_border,
-      color: widget.vaga.isFavorite ? Colors.red : Colors.grey,
-      size: 30,
-      ),
-
+      // child: GestureDetector(
+      //   onTap: () {
+      //     setState(() {
+      //       if (!widget.vaga.isFavorite) {
+      //         widget.vaga.addFavorite();
+      //       } else {
+      //         widget.vaga.removeFavorite();
+      //       }
+      //     });
+      //   },
+      //   child: Icon(widget.vaga.isFavorite ? Icons.favorite : Icons.favorite_border,
+      //   color: widget.vaga.isFavorite ? Colors.red : Colors.grey,
+      //   size: 30,
+      //   ),
+      //
+      // ),
     );
   }
 }

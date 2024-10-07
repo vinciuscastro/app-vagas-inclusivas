@@ -45,7 +45,7 @@ class FavoriteScreen extends StatelessWidget {
             );
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
             return const Center(
-              child: Text('Nenhuma vaga favorita encontrada'),
+              child: Text('Nenhuma vaga favorita encontrada', style: TextStyle(fontSize: 20, color: Colors.grey)),
             );
           } else {
             var vagas = snapshot.data!;

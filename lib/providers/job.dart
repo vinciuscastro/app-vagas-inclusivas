@@ -94,14 +94,12 @@ class Job with ChangeNotifier {
 
   void addFavorite() {
     isFavorite = true;
-    _firestore.collection('jobs').doc(id).set(toJsonFb());
     DatabaseHelper.insert('favorite_jobs', toJson());
     notifyListeners();
   }
 
   void removeFavorite() {
     isFavorite = false;
-    _firestore.collection('jobs').doc(id).set(toJsonFb());
     DatabaseHelper.delete('favorite_jobs', id);
     notifyListeners();
   }

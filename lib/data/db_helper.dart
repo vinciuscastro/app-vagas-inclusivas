@@ -7,8 +7,7 @@ class DatabaseHelper {
     final dbPath = await getDatabasesPath();
     final String path = join(dbPath, 'app_database.db');
     return openDatabase(path, onCreate: (db, version) async {
-      await db.execute(
-          """CREATE TABLE favorite_jobs (
+      await db.execute("""CREATE TABLE favorite_jobs (
             id TEXT PRIMARY KEY,
             name TEXT,
             description TEXT,
@@ -21,8 +20,6 @@ class DatabaseHelper {
             schedule TEXT,
             benefits TEXT,
           )""");
-      
-
     }, version: 1);
   }
 
@@ -53,7 +50,6 @@ class DatabaseHelper {
     });
   }
 
-
   static Future<void> update(String table, Map<String, Object> data) async {
     final db = await DatabaseHelper.database();
     db.update(table, data, where: 'id = ?', whereArgs: [data['id']]);
@@ -62,5 +58,12 @@ class DatabaseHelper {
   static Future<void> delete(String table, String id) async {
     final db = await DatabaseHelper.database();
     db.delete(table, where: 'id = ?', whereArgs: [id]);
+  }
+
+  static Future<bool> isFavorited(String id) async {
+    final db = await DatabaseHelper.database();
+    final List<Map<String, dynamic>> data =
+        await db.query('favorite_jobs', where: 'id = ?', whereArgs: [id]);
+    return data.isNotEmpty;
   }
 }
