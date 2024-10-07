@@ -19,6 +19,7 @@ O protótipo do aplicativo foi desenvolvido no Figma e pode ser acessado [aqui](
 - Flutter
 - Dart
 - SQLite
+- Firebase
 
 ## Instalação
 1. Clone o repositório

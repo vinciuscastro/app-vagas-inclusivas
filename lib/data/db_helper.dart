@@ -19,7 +19,7 @@ class DatabaseHelper {
             modality TEXT,
             minority TEXT,
             schedule TEXT,
-            benefits TEXT
+            benefits TEXT,
           )""");
       
 

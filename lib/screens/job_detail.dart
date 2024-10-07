@@ -46,6 +46,7 @@ class JobDetail extends StatelessWidget {
                     Text(vaga.name,
                         style: Theme.of(context).textTheme.titleLarge),
                     const SizedBox(height: 10),
+
                     Row(
                       children: [
                         Text(vaga.company,

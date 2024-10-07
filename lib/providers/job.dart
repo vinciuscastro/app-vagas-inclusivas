@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:app_kimberle/data/db_helper.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 
@@ -39,6 +40,8 @@ class Job with ChangeNotifier {
     notifyListeners();
   }
 
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+
   factory Job.fromJson(Map<String, dynamic> json) {
     return Job(
       id: Random().nextDouble().toString(),
@@ -49,6 +52,7 @@ class Job with ChangeNotifier {
       company: json['company'],
       type: json['type'],
       modality: json['modality'],
+      isFavorite: json['isFavorite'],
       minority: json['minority'],
       schedule: json['schedule'],
       benefits: (json['benefits'] as List<dynamic>).map((item) => item.toString()).toList(),
@@ -71,14 +75,33 @@ class Job with ChangeNotifier {
     };
   }
 
+  Map<String, Object> toJsonFb() {
+    return {
+      'id': id,
+      'name': name,
+      'description': description,
+      'salary': salary,
+      'location': location,
+      'company': company,
+      'type': type,
+      'isFavorite': isFavorite,
+      'modality': modality,
+      'minority': minority,
+      'schedule': schedule,
+      'benefits': benefits.join(','),
+    };
+  }
+
   void addFavorite() {
     isFavorite = true;
+    _firestore.collection('jobs').doc(id).set(toJsonFb());
     DatabaseHelper.insert('favorite_jobs', toJson());
     notifyListeners();
   }
 
   void removeFavorite() {
     isFavorite = false;
+    _firestore.collection('jobs').doc(id).set(toJsonFb());
     DatabaseHelper.delete('favorite_jobs', id);
     notifyListeners();
   }

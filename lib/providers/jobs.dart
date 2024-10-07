@@ -1,13 +1,11 @@
-import 'dart:convert';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'job.dart';
-import 'package:flutter/services.dart' show rootBundle;
-import 'package:provider/provider.dart';
 import '../data/db_helper.dart';
+import 'job.dart';
 
 class Jobs with ChangeNotifier {
 
-  final List<Job> _jobs = [];
+  List<Job> _jobs = [];
 
   List<Job> get jobs => [..._jobs];
 
@@ -27,11 +25,25 @@ class Jobs with ChangeNotifier {
   }
 
   Future loadJobs() async {
-    final String response = await rootBundle.loadString('assets/vagas.json');
-    final data = await json.decode(response);
-    for (var job in data) {
-      addJobFromJson(job);
-    }
+    final snapshot = await FirebaseFirestore.instance.collection('jobs').get();
+    _jobs = snapshot.docs.map((doc) {
+      return Job(
+        id: doc.id,
+        name: doc['name'],
+        description: doc['description'],
+        salary: doc['salary'] * 1.0,
+        location: doc['location'],
+        company: doc['company'],
+        type: doc['type'],
+        modality: doc['modality'],
+        isFavorite: doc['isFavorite'],
+        minority: doc['minority'],
+        schedule: doc['schedule'],
+        benefits: (doc['benefits']).toString().split(',').map((item) => item.toString()).toList(),
+      );
+    }).toList();
+    notifyListeners();
+
   }
 
   Future<List<Job>> favoriteJobs() async {

@@ -9,6 +9,7 @@ class FeedbackCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      margin: const EdgeInsets.symmetric(vertical: 8.0),
       color: Colors.blue[50],
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10.0),
